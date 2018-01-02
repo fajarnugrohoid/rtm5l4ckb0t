@@ -9,6 +9,8 @@ from slackclient import SlackClient
 
 from rtmbot.utils.module_loading import import_string
 
+from pymongo import MongoClient
+
 sys.dont_write_bytecode = True
 
 
@@ -61,6 +63,10 @@ class RtmBot(object):
         self.last_ping = 0
         self.bot_plugins = []
         self.slack_client = SlackClient(self.token)
+        self.tests = 'testtss'
+
+    def testcon(self, str):
+        print(str)
 
     def _dbg(self, debug_string):
         print(debug_string)
@@ -110,6 +116,7 @@ class RtmBot(object):
     def input(self, data):
         if "type" in data:
             function_name = "process_" + data["type"]
+            print('function_name:' + function_name)
             self._dbg("got {}".format(function_name))
             for plugin in self.bot_plugins:
                 plugin.do(function_name, data)
@@ -143,14 +150,14 @@ class RtmBot(object):
         for plugin_path in self.active_plugins:
             self._dbg("Importing {}".format(plugin_path))
             print("plugin_pathxx:" + plugin_path)
-
+            cls = import_string(plugin_path)
             if self.debug is False:
                 # this makes the plugin fail with stack trace in debug mode
-                cls = import_string(plugin_path)
+                print('cls1:'+str(cls))
             else:
                 # otherwise we log the exception and carry on
                 try:
-                    cls = import_string(plugin_path)
+                    print('cls2:'+str(cls))
                 except ImportError as error:
                     logging.exception("Problem importing {} - {}".format(
                         plugin_path, error)
@@ -186,6 +193,7 @@ class Plugin(object):
         self.jobs = []
         self.debug = self.plugin_config.get('DEBUG', False)
         self.outputs = []
+        self.tests = []
 
     def register_jobs(self):
         ''' Please override this job with a method that instantiates any jobs
@@ -303,6 +311,16 @@ class Job(object):
         '''
         raise NotImplementedError
 
+class MongoDBConn(object):
+
+    def __init__(self):
+        self.clientx = MongoClient('localhost:27017')
+        self.clientx.karma_bot_db
+        self.dbx =  self.clientx.karma_bot_db
+
+
+    def connDB(self):
+        return self.dbx
 
 class UnknownChannel(Exception):
     pass

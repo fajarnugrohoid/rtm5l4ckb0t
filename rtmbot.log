@@ -1,0 +1,2626 @@
+2018-01-02 08:37:08,381 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 08:37:08,413 Starting new HTTPS connection (1): slack.com
+2018-01-02 08:37:09,100 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9204
+2018-01-02 08:37:09,256 Loading plugins
+2018-01-02 08:37:09,256 Importing plugins.repeat.RepeatPlugin
+2018-01-02 08:37:09,272 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x00ED24D0>
+2018-01-02 08:37:09,272 Registering jobs for RepeatPlugin
+2018-01-02 08:37:09,272 No jobs registered for RepeatPlugin
+2018-01-02 08:37:09,819 got process_hello
+2018-01-02 08:37:10,042 got process_pong
+2018-01-02 08:37:10,151 got process_reconnect_url
+2018-01-02 08:37:10,260 got process_presence_change
+2018-01-02 08:37:11,024 got process_presence_change
+2018-01-02 08:37:13,397 got process_pong
+2018-01-02 08:37:17,334 got process_pong
+2018-01-02 08:37:21,369 got process_pong
+2018-01-02 08:37:25,391 got process_pong
+2018-01-02 08:37:29,341 got process_pong
+2018-01-02 08:37:33,398 got process_pong
+2018-01-02 08:37:37,425 got process_pong
+2018-01-02 08:37:41,347 got process_pong
+2018-01-02 08:37:45,375 got process_pong
+2018-01-02 08:37:49,348 got process_pong
+2018-01-02 08:37:53,337 got process_pong
+2018-01-02 08:37:57,355 got process_pong
+2018-01-02 08:38:01,257 got process_reconnect_url
+2018-01-02 08:38:01,479 got process_pong
+2018-01-02 08:38:05,396 got process_pong
+2018-01-02 08:38:09,430 got process_pong
+2018-01-02 08:38:13,352 got process_pong
+2018-01-02 08:38:17,347 got process_pong
+2018-01-02 08:38:21,379 got process_pong
+2018-01-02 08:38:25,429 got process_pong
+2018-01-02 08:38:29,339 got process_pong
+2018-01-02 08:38:33,346 got process_pong
+2018-01-02 08:38:37,365 got process_pong
+2018-01-02 08:38:41,363 got process_pong
+2018-01-02 08:38:45,415 got process_pong
+2018-01-02 08:38:49,432 got process_pong
+2018-01-02 08:38:53,334 got process_pong
+2018-01-02 08:38:57,392 got process_pong
+2018-01-02 08:39:01,395 got process_pong
+2018-01-02 08:39:05,368 got process_pong
+2018-01-02 08:39:09,397 got process_pong
+2018-01-02 08:39:13,330 got process_pong
+2018-01-02 08:39:17,350 got process_pong
+2018-01-02 08:39:21,399 got process_pong
+2018-01-02 08:39:25,423 got process_pong
+2018-01-02 08:39:29,351 got process_pong
+2018-01-02 08:39:33,359 got process_pong
+2018-01-02 08:39:37,393 got process_pong
+2018-01-02 08:39:41,333 got process_pong
+2018-01-02 08:39:45,366 got process_pong
+2018-01-02 08:39:49,398 got process_pong
+2018-01-02 08:39:53,434 got process_pong
+2018-01-02 08:39:57,347 got process_pong
+2018-01-02 08:40:01,396 got process_pong
+2018-01-02 08:40:05,402 got process_pong
+2018-01-02 08:40:09,406 got process_pong
+2018-01-02 08:40:13,411 got process_pong
+2018-01-02 08:40:17,422 got process_pong
+2018-01-02 08:40:21,330 got process_pong
+2018-01-02 08:40:25,347 got process_pong
+2018-01-02 08:40:29,375 got process_pong
+2018-01-02 08:40:33,426 got process_pong
+2018-01-02 08:40:37,338 got process_pong
+2018-01-02 08:40:41,363 got process_pong
+2018-01-02 08:40:45,392 got process_pong
+2018-01-02 08:40:49,397 got process_pong
+2018-01-02 08:40:53,412 got process_pong
+2018-01-02 08:40:57,422 got process_pong
+2018-01-02 08:41:01,336 got process_pong
+2018-01-02 08:41:01,555 got process_reconnect_url
+2018-01-02 08:41:05,368 got process_pong
+2018-01-02 08:41:09,402 got process_pong
+2018-01-02 08:41:13,428 got process_pong
+2018-01-02 08:41:17,340 got process_pong
+2018-01-02 08:41:21,349 got process_pong
+2018-01-02 08:41:25,353 got process_pong
+2018-01-02 08:41:29,396 got process_pong
+2018-01-02 08:41:33,429 got process_pong
+2018-01-02 08:41:37,329 got process_pong
+2018-01-02 08:41:41,358 got process_pong
+2018-01-02 08:41:45,378 got process_pong
+2018-01-02 08:41:49,428 got process_pong
+2018-01-02 08:41:53,416 got process_pong
+2018-01-02 08:41:57,334 got process_pong
+2018-01-02 08:42:01,354 got process_pong
+2018-01-02 08:42:05,397 got process_pong
+2018-01-02 08:42:09,432 got process_pong
+2018-01-02 08:42:13,351 got process_pong
+2018-01-02 08:42:17,372 got process_pong
+2018-01-02 08:42:21,410 got process_pong
+2018-01-02 08:42:25,422 got process_pong
+2018-01-02 08:42:29,348 got process_pong
+2018-01-02 08:42:33,350 got process_pong
+2018-01-02 08:42:37,358 got process_pong
+2018-01-02 08:42:41,388 got process_pong
+2018-01-02 08:42:45,434 got process_pong
+2018-01-02 08:42:49,364 got process_pong
+2018-01-02 08:42:53,386 got process_pong
+2018-01-02 08:42:57,425 got process_pong
+2018-01-02 08:43:01,376 got process_pong
+2018-01-02 08:43:05,403 got process_pong
+2018-01-02 08:43:09,341 got process_pong
+2018-01-02 08:43:13,406 got process_pong
+2018-01-02 08:43:17,435 got process_pong
+2018-01-02 08:43:21,360 got process_pong
+2018-01-02 08:43:25,351 got process_pong
+2018-01-02 08:43:29,389 got process_pong
+2018-01-02 08:43:33,422 got process_pong
+2018-01-02 08:43:37,437 got process_pong
+2018-01-02 08:43:41,323 got process_pong
+2018-01-02 08:43:45,313 got process_pong
+2018-01-02 08:43:49,352 got process_pong
+2018-01-02 08:43:53,387 got process_pong
+2018-01-02 08:43:57,331 got process_pong
+2018-01-02 08:44:01,382 got process_reconnect_url
+2018-01-02 08:44:01,582 got process_pong
+2018-01-02 08:44:05,398 got process_pong
+2018-01-02 08:44:09,323 got process_pong
+2018-01-02 08:44:13,349 got process_pong
+2018-01-02 08:44:17,383 got process_pong
+2018-01-02 08:44:21,400 got process_pong
+2018-01-02 08:44:25,370 got process_pong
+2018-01-02 08:44:29,389 got process_pong
+2018-01-02 08:44:33,367 got process_pong
+2018-01-02 08:44:37,331 got process_pong
+2018-01-02 08:44:41,385 got process_pong
+2018-01-02 08:44:45,355 got process_pong
+2018-01-02 08:44:49,315 got process_pong
+2018-01-02 08:44:53,430 got process_pong
+2018-01-02 08:44:57,417 got process_pong
+2018-01-02 08:45:01,358 got process_pong
+2018-01-02 08:45:05,386 got process_pong
+2018-01-02 08:45:09,427 got process_pong
+2018-01-02 08:45:13,343 got process_pong
+2018-01-02 08:45:17,381 got process_pong
+2018-01-02 08:45:21,392 got process_pong
+2018-01-02 08:45:25,330 got process_pong
+2018-01-02 08:45:29,337 got process_pong
+2018-01-02 08:45:33,349 got process_pong
+2018-01-02 08:45:37,340 got process_pong
+2018-01-02 08:45:41,402 got process_pong
+2018-01-02 08:45:45,357 got process_pong
+2018-01-02 08:45:49,351 got process_pong
+2018-01-02 08:45:53,357 got process_pong
+2018-01-02 08:45:57,394 got process_pong
+2018-01-02 08:46:01,323 got process_reconnect_url
+2018-01-02 08:46:01,649 got process_pong
+2018-01-02 08:46:05,407 got process_pong
+2018-01-02 08:46:09,332 got process_pong
+2018-01-02 08:46:13,367 got process_pong
+2018-01-02 08:46:17,390 got process_pong
+2018-01-02 08:46:21,428 got process_pong
+2018-01-02 08:46:25,363 got process_pong
+2018-01-02 08:46:29,352 got process_pong
+2018-01-02 08:46:33,381 got process_pong
+2018-01-02 08:46:37,412 got process_pong
+2018-01-02 08:46:41,330 got process_pong
+2018-01-02 08:46:45,348 got process_pong
+2018-01-02 08:46:49,376 got process_pong
+2018-01-02 08:46:53,396 got process_pong
+2018-01-02 08:46:57,324 got process_pong
+2018-01-02 08:47:01,426 got process_pong
+2018-01-02 08:47:05,351 got process_pong
+2018-01-02 08:47:09,343 got process_pong
+2018-01-02 08:47:13,353 got process_pong
+2018-01-02 08:47:17,336 got process_pong
+2018-01-02 08:47:21,376 got process_pong
+2018-01-02 08:47:25,403 got process_pong
+2018-01-02 08:47:29,331 got process_pong
+2018-01-02 08:47:33,342 got process_pong
+2018-01-02 08:47:37,385 got process_pong
+2018-01-02 08:47:41,424 got process_pong
+2018-01-02 08:47:45,343 got process_pong
+2018-01-02 08:47:49,375 got process_pong
+2018-01-02 08:47:53,404 got process_pong
+2018-01-02 08:47:57,335 got process_pong
+2018-01-02 08:48:01,351 got process_pong
+2018-01-02 08:48:05,374 got process_pong
+2018-01-02 08:48:09,414 got process_pong
+2018-01-02 08:48:13,425 got process_pong
+2018-01-02 08:48:17,324 got process_pong
+2018-01-02 08:48:21,421 got process_pong
+2018-01-02 08:48:25,336 got process_pong
+2018-01-02 08:48:29,317 got process_pong
+2018-01-02 08:48:33,415 got process_pong
+2018-01-02 08:48:37,412 got process_pong
+2018-01-02 08:48:41,367 got process_pong
+2018-01-02 08:48:45,358 got process_pong
+2018-01-02 08:48:49,325 got process_pong
+2018-01-02 08:48:53,331 got process_pong
+2018-01-02 08:48:57,356 got process_pong
+2018-01-02 08:49:01,365 got process_pong
+2018-01-02 08:49:01,582 got process_reconnect_url
+2018-01-02 08:49:05,393 got process_pong
+2018-01-02 08:49:09,422 got process_pong
+2018-01-02 08:49:13,343 got process_pong
+2018-01-02 08:49:17,377 got process_pong
+2018-01-02 08:49:21,394 got process_pong
+2018-01-02 08:49:25,419 got process_pong
+2018-01-02 08:49:29,311 got process_pong
+2018-01-02 08:49:33,427 got process_pong
+2018-01-02 08:49:37,425 got process_pong
+2018-01-02 08:49:41,337 got process_pong
+2018-01-02 08:49:45,386 got process_pong
+2018-01-02 08:49:49,327 got process_pong
+2018-01-02 08:49:53,371 got process_pong
+2018-01-02 08:49:57,412 got process_pong
+2018-01-02 08:50:01,325 got process_pong
+2018-01-02 08:50:05,340 got process_pong
+2018-01-02 08:50:09,381 got process_pong
+2018-01-02 08:50:13,396 got process_pong
+2018-01-02 08:50:17,430 got process_pong
+2018-01-02 08:50:21,332 got process_pong
+2018-01-02 08:50:25,375 got process_pong
+2018-01-02 08:50:29,382 got process_pong
+2018-01-02 08:50:33,396 got process_pong
+2018-01-02 08:50:37,352 got process_pong
+2018-01-02 08:50:41,330 got process_pong
+2018-01-02 08:50:45,351 got process_pong
+2018-01-02 08:50:49,355 got process_pong
+2018-01-02 08:50:53,363 got process_pong
+2018-01-02 08:50:57,395 got process_pong
+2018-01-02 08:51:01,413 got process_pong
+2018-01-02 08:51:05,344 got process_pong
+2018-01-02 08:51:09,394 got process_pong
+2018-01-02 08:51:13,416 got process_pong
+2018-01-02 08:51:17,345 got process_pong
+2018-01-02 08:51:21,364 got process_pong
+2018-01-02 08:51:25,403 got process_pong
+2018-01-02 08:51:29,421 got process_pong
+2018-01-02 08:51:33,340 got process_pong
+2018-01-02 08:51:37,344 got process_pong
+2018-01-02 08:51:41,372 got process_pong
+2018-01-02 08:51:45,406 got process_pong
+2018-01-02 08:51:49,427 got process_pong
+2018-01-02 08:51:53,335 got process_pong
+2018-01-02 08:51:57,330 got process_pong
+2018-01-02 08:52:01,363 got process_pong
+2018-01-02 08:52:01,574 got process_reconnect_url
+2018-01-02 08:52:05,395 got process_pong
+2018-01-02 08:52:09,365 got process_pong
+2018-01-02 08:52:13,367 got process_pong
+2018-01-02 08:52:17,423 got process_pong
+2018-01-02 08:52:21,322 got process_pong
+2018-01-02 08:52:25,364 got process_pong
+2018-01-02 08:52:29,385 got process_pong
+2018-01-02 08:52:33,417 got process_pong
+2018-01-02 08:52:37,340 got process_pong
+2018-01-02 08:52:41,359 got process_pong
+2018-01-02 08:52:45,390 got process_pong
+2018-01-02 08:52:49,425 got process_pong
+2018-01-02 08:52:53,351 got process_pong
+2018-01-02 08:52:57,407 got process_pong
+2018-01-02 08:53:01,412 got process_pong
+2018-01-02 08:53:05,391 got process_pong
+2018-01-02 08:53:09,385 got process_pong
+2018-01-02 08:53:13,415 got process_pong
+2018-01-02 08:53:17,425 got process_pong
+2018-01-02 08:53:21,334 got process_pong
+2018-01-02 08:53:25,334 got process_pong
+2018-01-02 08:53:29,395 got process_pong
+2018-01-02 08:53:33,402 got process_pong
+2018-01-02 08:53:37,389 got process_pong
+2018-01-02 08:53:41,386 got process_pong
+2018-01-02 08:53:45,434 got process_pong
+2018-01-02 08:53:49,350 got process_pong
+2018-01-02 08:53:53,396 got process_pong
+2018-01-02 08:53:57,418 got process_pong
+2018-01-02 08:54:01,335 got process_pong
+2018-01-02 08:54:01,549 got process_reconnect_url
+2018-01-02 08:54:05,373 got process_pong
+2018-01-02 08:54:09,397 got process_pong
+2018-01-02 08:54:13,425 got process_pong
+2018-01-02 08:54:17,424 got process_pong
+2018-01-02 08:54:21,343 got process_pong
+2018-01-02 08:54:25,399 got process_pong
+2018-01-02 08:54:29,332 got process_pong
+2018-01-02 08:54:33,361 got process_pong
+2018-01-02 08:54:37,384 got process_pong
+2018-01-02 08:54:41,414 got process_pong
+2018-01-02 08:54:45,426 got process_pong
+2018-01-02 08:54:49,342 got process_pong
+2018-01-02 08:54:53,356 got process_pong
+2018-01-02 08:54:57,387 got process_pong
+2018-01-02 08:55:01,418 got process_pong
+2018-01-02 08:55:05,341 got process_pong
+2018-01-02 08:55:09,369 got process_pong
+2018-01-02 08:55:13,343 got process_pong
+2018-01-02 08:55:17,358 got process_pong
+2018-01-02 08:55:21,348 got process_pong
+2018-01-02 08:55:25,377 got process_pong
+2018-01-02 08:55:29,369 got process_pong
+2018-01-02 08:55:33,384 got process_pong
+2018-01-02 08:55:37,421 got process_pong
+2018-01-02 08:55:41,368 got process_pong
+2018-01-02 08:55:45,397 got process_pong
+2018-01-02 08:55:49,313 got process_pong
+2018-01-02 08:55:53,359 got process_pong
+2018-01-02 08:55:57,367 got process_pong
+2018-01-02 08:56:01,391 got process_pong
+2018-01-02 08:56:05,414 got process_pong
+2018-01-02 08:56:09,325 got process_pong
+2018-01-02 08:56:13,340 got process_pong
+2018-01-02 08:56:17,354 got process_pong
+2018-01-02 08:56:21,392 got process_pong
+2018-01-02 08:56:25,420 got process_pong
+2018-01-02 08:56:29,318 got process_pong
+2018-01-02 08:56:33,414 got process_pong
+2018-01-02 08:56:37,332 got process_pong
+2018-01-02 08:56:41,348 got process_pong
+2018-01-02 08:56:45,358 got process_pong
+2018-01-02 08:56:49,378 got process_pong
+2018-01-02 08:56:53,407 got process_pong
+2018-01-02 08:56:57,427 got process_pong
+2018-01-02 08:57:01,366 got process_pong
+2018-01-02 08:57:01,585 got process_reconnect_url
+2018-01-02 08:57:05,403 got process_pong
+2018-01-02 08:57:09,333 got process_pong
+2018-01-02 08:57:13,372 got process_pong
+2018-01-02 08:57:17,370 got process_pong
+2018-01-02 08:57:21,385 got process_pong
+2018-01-02 08:57:25,415 got process_pong
+2018-01-02 08:57:29,347 got process_pong
+2018-01-02 08:57:33,386 got process_pong
+2018-01-02 08:57:37,417 got process_pong
+2018-01-02 08:57:41,338 got process_pong
+2018-01-02 08:57:45,425 got process_pong
+2018-01-02 08:57:49,414 got process_pong
+2018-01-02 08:57:53,332 got process_pong
+2018-01-02 08:57:57,371 got process_pong
+2018-01-02 08:58:01,395 got process_pong
+2018-01-02 08:58:05,369 got process_pong
+2018-01-02 08:58:09,395 got process_pong
+2018-01-02 08:58:13,432 got process_pong
+2018-01-02 08:58:17,351 got process_pong
+2018-01-02 08:58:21,379 got process_pong
+2018-01-02 08:58:25,416 got process_pong
+2018-01-02 08:58:29,428 got process_pong
+2018-01-02 08:58:33,357 got process_pong
+2018-01-02 08:58:37,360 got process_pong
+2018-01-02 08:58:41,389 got process_pong
+2018-01-02 08:58:45,405 got process_pong
+2018-01-02 08:58:49,427 got process_pong
+2018-01-02 08:58:53,394 got process_pong
+2018-01-02 08:58:57,320 got process_pong
+2018-01-02 08:59:01,332 got process_pong
+2018-01-02 08:59:05,350 got process_pong
+2018-01-02 08:59:09,336 got process_pong
+2018-01-02 08:59:15,096 got process_pong
+2018-01-02 09:00:13,676 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:00:13,719 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:00:14,940 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9204
+2018-01-02 09:00:15,192 Loading plugins
+2018-01-02 09:00:15,192 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:00:15,197 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x034081D0>
+2018-01-02 09:00:15,198 Registering jobs for RepeatPlugin
+2018-01-02 09:00:15,198 No jobs registered for RepeatPlugin
+2018-01-02 09:00:15,700 got process_hello
+2018-01-02 09:00:16,001 got process_pong
+2018-01-02 09:00:16,102 got process_reconnect_url
+2018-01-02 09:00:17,109 got process_presence_change
+2018-01-02 09:00:19,327 got process_pong
+2018-01-02 09:00:22,038 got process_presence_change
+2018-01-02 09:00:23,352 got process_pong
+2018-01-02 09:00:24,055 got process_presence_change
+2018-01-02 09:00:27,401 got process_pong
+2018-01-02 09:00:31,270 got process_user_typing
+2018-01-02 09:00:31,572 got process_pong
+2018-01-02 09:00:33,172 got process_message
+2018-01-02 09:00:35,315 got process_pong
+2018-01-02 09:00:39,335 got process_pong
+2018-01-02 09:00:43,353 got process_pong
+2018-01-02 09:00:47,387 got process_pong
+2018-01-02 09:00:51,396 got process_pong
+2018-01-02 09:00:55,386 got process_pong
+2018-01-02 09:00:59,355 got process_pong
+2018-01-02 09:01:00,705 got process_user_typing
+2018-01-02 09:01:02,149 got process_message
+2018-01-02 09:01:03,388 got process_pong
+2018-01-02 09:01:07,367 got process_pong
+2018-01-02 09:01:11,410 got process_pong
+2018-01-02 09:01:15,344 got process_pong
+2018-01-02 09:01:19,412 got process_pong
+2018-01-02 09:01:23,389 got process_pong
+2018-01-02 09:01:27,369 got process_pong
+2018-01-02 09:01:31,337 got process_pong
+2018-01-02 09:01:35,437 got process_pong
+2018-01-02 09:01:39,393 got process_pong
+2018-01-02 09:01:43,350 got process_pong
+2018-01-02 09:01:47,352 got process_pong
+2018-01-02 09:01:51,335 got process_pong
+2018-01-02 09:01:55,419 got process_pong
+2018-01-02 09:01:59,392 got process_pong
+2018-01-02 09:02:01,537 got process_reconnect_url
+2018-01-02 09:02:03,373 got process_pong
+2018-01-02 09:02:07,362 got process_pong
+2018-01-02 09:02:11,343 got process_pong
+2018-01-02 09:02:15,374 got process_pong
+2018-01-02 09:02:19,398 got process_pong
+2018-01-02 09:02:23,401 got process_pong
+2018-01-02 09:02:27,320 got process_pong
+2018-01-02 09:02:31,407 got process_pong
+2018-01-02 09:02:35,385 got process_pong
+2018-01-02 09:02:39,363 got process_pong
+2018-01-02 09:02:43,395 got process_pong
+2018-01-02 09:02:47,394 got process_pong
+2018-01-02 09:02:51,376 got process_pong
+2018-01-02 09:02:55,309 got process_pong
+2018-01-02 09:02:59,314 got process_pong
+2018-01-02 09:03:03,384 got process_pong
+2018-01-02 09:03:07,374 got process_pong
+2018-01-02 09:03:11,361 got process_pong
+2018-01-02 09:03:15,374 got process_pong
+2018-01-02 09:03:19,328 got process_pong
+2018-01-02 09:03:23,408 got process_pong
+2018-01-02 09:03:27,357 got process_pong
+2018-01-02 09:03:31,359 got process_pong
+2018-01-02 09:03:35,427 got process_pong
+2018-01-02 09:03:39,338 got process_pong
+2018-01-02 09:03:43,351 got process_pong
+2018-01-02 09:03:47,317 got process_pong
+2018-01-02 09:03:51,413 got process_pong
+2018-01-02 09:03:55,386 got process_pong
+2018-01-02 09:03:59,350 got process_pong
+2018-01-02 09:04:03,405 got process_pong
+2018-01-02 09:04:07,399 got process_pong
+2018-01-02 09:04:11,364 got process_pong
+2018-01-02 09:04:15,358 got process_pong
+2018-01-02 09:04:19,349 got process_pong
+2018-01-02 09:04:23,358 got process_pong
+2018-01-02 09:04:27,378 got process_pong
+2018-01-02 09:04:31,366 got process_pong
+2018-01-02 09:04:35,397 got process_pong
+2018-01-02 09:04:39,413 got process_pong
+2018-01-02 09:04:43,386 got process_pong
+2018-01-02 09:04:47,346 got process_pong
+2018-01-02 09:04:51,428 got process_pong
+2018-01-02 09:04:55,388 got process_pong
+2018-01-02 09:04:59,326 got process_pong
+2018-01-02 09:05:01,559 got process_reconnect_url
+2018-01-02 09:05:03,434 got process_pong
+2018-01-02 09:05:07,306 got process_pong
+2018-01-02 09:05:11,402 got process_pong
+2018-01-02 09:05:15,331 got process_pong
+2018-01-02 09:05:19,406 got process_pong
+2018-01-02 09:05:23,434 got process_pong
+2018-01-02 09:05:27,392 got process_pong
+2018-01-02 09:05:31,320 got process_pong
+2018-01-02 09:05:35,327 got process_pong
+2018-01-02 09:05:39,375 got process_pong
+2018-01-02 09:05:43,383 got process_pong
+2018-01-02 09:05:47,389 got process_pong
+2018-01-02 09:05:51,315 got process_pong
+2018-01-02 09:05:55,388 got process_pong
+2018-01-02 09:05:59,333 got process_pong
+2018-01-02 09:06:03,366 got process_pong
+2018-01-02 09:06:07,325 got process_pong
+2018-01-02 09:06:11,358 got process_pong
+2018-01-02 09:06:15,392 got process_pong
+2018-01-02 09:06:19,330 got process_pong
+2018-01-02 09:06:23,373 got process_pong
+2018-01-02 09:06:27,389 got process_pong
+2018-01-02 09:06:31,304 got process_pong
+2018-01-02 09:06:35,327 got process_pong
+2018-01-02 09:06:39,367 got process_pong
+2018-01-02 09:06:43,393 got process_pong
+2018-01-02 09:06:47,350 got process_pong
+2018-01-02 09:06:51,375 got process_pong
+2018-01-02 09:06:55,398 got process_pong
+2018-01-02 09:06:59,322 got process_pong
+2018-01-02 09:07:01,531 got process_reconnect_url
+2018-01-02 09:07:03,337 got process_pong
+2018-01-02 09:07:07,351 got process_pong
+2018-01-02 09:07:11,365 got process_pong
+2018-01-02 09:07:15,390 got process_pong
+2018-01-02 09:07:19,323 got process_pong
+2018-01-02 09:07:23,344 got process_pong
+2018-01-02 09:07:27,366 got process_pong
+2018-01-02 09:07:30,588 got process_presence_change
+2018-01-02 09:07:31,394 got process_pong
+2018-01-02 09:07:35,315 got process_pong
+2018-01-02 09:07:39,413 got process_pong
+2018-01-02 09:07:43,359 got process_pong
+2018-01-02 09:07:47,388 got process_pong
+2018-01-02 09:07:51,308 got process_pong
+2018-01-02 09:07:55,350 got process_pong
+2018-01-02 09:07:59,405 got process_pong
+2018-01-02 09:08:03,387 got process_pong
+2018-01-02 09:08:07,312 got process_pong
+2018-01-02 09:08:11,375 got process_pong
+2018-01-02 09:08:15,389 got process_pong
+2018-01-02 09:08:19,399 got process_pong
+2018-01-02 09:08:23,316 got process_pong
+2018-01-02 09:08:27,373 got process_pong
+2018-01-02 09:08:31,313 got process_pong
+2018-01-02 09:08:35,395 got process_pong
+2018-01-02 09:08:39,318 got process_pong
+2018-01-02 09:08:43,393 got process_pong
+2018-01-02 09:08:47,403 got process_pong
+2018-01-02 09:08:51,356 got process_pong
+2018-01-02 09:08:55,356 got process_pong
+2018-01-02 09:08:59,357 got process_pong
+2018-01-02 09:09:03,359 got process_pong
+2018-01-02 09:09:07,347 got process_pong
+2018-01-02 09:09:11,432 got process_pong
+2018-01-02 09:09:15,354 got process_pong
+2018-01-02 09:09:19,375 got process_pong
+2018-01-02 09:09:23,408 got process_pong
+2018-01-02 09:09:27,335 got process_pong
+2018-01-02 09:09:31,340 got process_pong
+2018-01-02 09:09:35,357 got process_pong
+2018-01-02 09:09:39,374 got process_pong
+2018-01-02 09:09:43,392 got process_pong
+2018-01-02 09:09:47,422 got process_pong
+2018-01-02 09:09:51,352 got process_pong
+2018-01-02 09:09:55,381 got process_pong
+2018-01-02 09:09:59,387 got process_pong
+2018-01-02 09:10:01,357 got process_reconnect_url
+2018-01-02 09:10:03,422 got process_pong
+2018-01-02 09:10:07,325 got process_pong
+2018-01-02 09:10:11,329 got process_pong
+2018-01-02 09:10:15,354 got process_pong
+2018-01-02 09:10:19,370 got process_pong
+2018-01-02 09:10:23,393 got process_pong
+2018-01-02 09:10:27,416 got process_pong
+2018-01-02 09:10:31,342 got process_pong
+2018-01-02 09:10:35,354 got process_pong
+2018-01-02 09:10:39,369 got process_pong
+2018-01-02 09:10:43,395 got process_pong
+2018-01-02 09:10:47,418 got process_pong
+2018-01-02 09:10:51,342 got process_pong
+2018-01-02 09:10:55,381 got process_pong
+2018-01-02 09:10:59,400 got process_pong
+2018-01-02 09:11:03,433 got process_pong
+2018-01-02 09:11:07,332 got process_pong
+2018-01-02 09:11:11,360 got process_pong
+2018-01-02 09:11:15,378 got process_pong
+2018-01-02 09:11:19,406 got process_pong
+2018-01-02 09:11:23,416 got process_pong
+2018-01-02 09:11:27,346 got process_pong
+2018-01-02 09:11:31,376 got process_pong
+2018-01-02 09:11:35,401 got process_pong
+2018-01-02 09:11:39,418 got process_pong
+2018-01-02 09:11:43,373 got process_pong
+2018-01-02 09:11:47,367 got process_pong
+2018-01-02 09:11:51,346 got process_pong
+2018-01-02 09:11:55,394 got process_pong
+2018-01-02 09:11:59,417 got process_pong
+2018-01-02 09:12:01,263 got process_reconnect_url
+2018-01-02 09:12:03,336 got process_pong
+2018-01-02 09:12:07,377 got process_pong
+2018-01-02 09:12:11,363 got process_pong
+2018-01-02 09:12:15,400 got process_pong
+2018-01-02 09:12:17,747 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:12:17,762 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:12:18,350 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9206
+2018-01-02 09:12:18,616 Loading plugins
+2018-01-02 09:12:18,616 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:12:18,616 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x039D8090>
+2018-01-02 09:12:18,616 Importing plugins.directAPIcall
+2018-01-02 09:12:18,616 Problem importing plugins.directAPIcall - Module "plugins" does not define a "directAPIcall" attribute/class
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\utils\module_loading.py", line 20, in import_string
+    return getattr(module, class_name)
+AttributeError: module 'plugins' has no attribute 'directAPIcall'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\core.py", line 153, in load_plugins
+    cls = import_string(plugin_path)
+  File "c:\Python3632\lib\site-packages\rtmbot\utils\module_loading.py", line 24, in import_string
+    raise ImportError(msg)
+ImportError: Module "plugins" does not define a "directAPIcall" attribute/class
+2018-01-02 09:12:18,631 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x039D81D0>
+2018-01-02 09:12:18,631 Registering jobs for RepeatPlugin
+2018-01-02 09:12:18,631 No jobs registered for RepeatPlugin
+2018-01-02 09:12:18,631 Registering jobs for RepeatPlugin
+2018-01-02 09:12:18,631 No jobs registered for RepeatPlugin
+2018-01-02 09:12:19,172 got process_hello
+2018-01-02 09:12:19,390 got process_pong
+2018-01-02 09:12:19,500 got process_reconnect_url
+2018-01-02 09:12:20,817 got process_presence_change
+2018-01-02 09:12:22,342 got process_pong
+2018-01-02 09:12:26,374 got process_pong
+2018-01-02 09:12:30,367 got process_pong
+2018-01-02 09:12:34,341 got process_pong
+2018-01-02 09:12:35,182 got process_user_typing
+2018-01-02 09:12:36,319 got process_message
+2018-01-02 09:12:38,328 got process_pong
+2018-01-02 09:12:42,362 got process_pong
+2018-01-02 09:12:46,400 got process_pong
+2018-01-02 09:12:50,416 got process_pong
+2018-01-02 09:12:54,456 got process_pong
+2018-01-02 09:12:58,416 got process_pong
+2018-01-02 09:13:02,428 got process_pong
+2018-01-02 09:13:06,362 got process_pong
+2018-01-02 09:13:10,375 got process_pong
+2018-01-02 09:13:14,364 got process_pong
+2018-01-02 09:13:18,400 got process_pong
+2018-01-02 09:13:22,426 got process_pong
+2018-01-02 09:13:26,336 got process_pong
+2018-01-02 09:13:30,358 got process_pong
+2018-01-02 09:13:34,400 got process_pong
+2018-01-02 09:13:38,432 got process_pong
+2018-01-02 09:13:42,340 got process_pong
+2018-01-02 09:13:46,376 got process_pong
+2018-01-02 09:13:50,406 got process_pong
+2018-01-02 09:13:54,332 got process_pong
+2018-01-02 09:13:58,342 got process_pong
+2018-01-02 09:14:01,390 got process_reconnect_url
+2018-01-02 09:14:02,378 got process_pong
+2018-01-02 09:14:06,367 got process_pong
+2018-01-02 09:14:10,365 got process_pong
+2018-01-02 09:14:14,350 got process_pong
+2018-01-02 09:14:18,386 got process_pong
+2018-01-02 09:14:22,320 got process_pong
+2018-01-02 09:14:26,362 got process_pong
+2018-01-02 09:14:30,316 got process_pong
+2018-01-02 09:14:34,380 got process_pong
+2018-01-02 09:14:38,340 got process_pong
+2018-01-02 09:14:42,315 got process_pong
+2018-01-02 09:14:46,383 got process_pong
+2018-01-02 09:14:50,385 got process_pong
+2018-01-02 09:14:54,416 got process_pong
+2018-01-02 09:14:58,405 got process_pong
+2018-01-02 09:15:02,408 got process_pong
+2018-01-02 09:15:06,429 got process_pong
+2018-01-02 09:15:10,354 got process_pong
+2018-01-02 09:15:14,428 got process_pong
+2018-01-02 09:15:18,361 got process_pong
+2018-01-02 09:15:22,346 got process_pong
+2018-01-02 09:15:26,377 got process_pong
+2018-01-02 09:15:30,400 got process_pong
+2018-01-02 09:15:34,398 got process_pong
+2018-01-02 09:15:38,433 got process_pong
+2018-01-02 09:15:42,336 got process_pong
+2018-01-02 09:15:46,368 got process_pong
+2018-01-02 09:15:50,413 got process_pong
+2018-01-02 09:15:54,351 got process_pong
+2018-01-02 09:15:58,337 got process_pong
+2018-01-02 09:16:02,368 got process_pong
+2018-01-02 09:16:06,378 got process_pong
+2018-01-02 09:16:10,398 got process_pong
+2018-01-02 09:16:14,464 got process_pong
+2018-01-02 09:16:18,350 got process_pong
+2018-01-02 09:16:22,372 got process_pong
+2018-01-02 09:16:26,324 got process_pong
+2018-01-02 09:16:30,354 got process_pong
+2018-01-02 09:16:34,383 got process_pong
+2018-01-02 09:16:38,417 got process_pong
+2018-01-02 09:16:42,322 got process_pong
+2018-01-02 09:16:46,362 got process_pong
+2018-01-02 09:16:50,401 got process_pong
+2018-01-02 09:16:54,422 got process_pong
+2018-01-02 09:16:58,351 got process_pong
+2018-01-02 09:17:01,401 got process_reconnect_url
+2018-01-02 09:17:02,386 got process_pong
+2018-01-02 09:17:06,399 got process_pong
+2018-01-02 09:17:10,332 got process_pong
+2018-01-02 09:17:14,365 got process_pong
+2018-01-02 09:17:18,396 got process_pong
+2018-01-02 09:17:22,424 got process_pong
+2018-01-02 09:17:26,350 got process_pong
+2018-01-02 09:17:30,390 got process_pong
+2018-01-02 09:17:34,402 got process_pong
+2018-01-02 09:17:38,438 got process_pong
+2018-01-02 09:17:42,411 got process_pong
+2018-01-02 09:17:46,353 got process_pong
+2018-01-02 09:17:50,354 got process_pong
+2018-01-02 09:17:54,389 got process_pong
+2018-01-02 09:17:58,432 got process_pong
+2018-01-02 09:18:02,372 got process_pong
+2018-01-02 09:18:06,354 got process_pong
+2018-01-02 09:18:10,323 got process_pong
+2018-01-02 09:18:14,350 got process_pong
+2018-01-02 09:18:18,393 got process_pong
+2018-01-02 09:18:22,383 got process_pong
+2018-01-02 09:18:26,430 got process_pong
+2018-01-02 09:18:30,371 got process_pong
+2018-01-02 09:18:34,405 got process_pong
+2018-01-02 09:18:38,434 got process_pong
+2018-01-02 09:18:42,433 got process_pong
+2018-01-02 09:18:46,418 got process_pong
+2018-01-02 09:18:50,421 got process_pong
+2018-01-02 09:18:54,410 got process_pong
+2018-01-02 09:18:58,416 got process_pong
+2018-01-02 09:19:01,373 got process_reconnect_url
+2018-01-02 09:19:02,357 got process_pong
+2018-01-02 09:19:06,403 got process_pong
+2018-01-02 09:19:10,336 got process_pong
+2018-01-02 09:19:14,385 got process_pong
+2018-01-02 09:19:18,329 got process_pong
+2018-01-02 09:19:22,363 got process_pong
+2018-01-02 09:19:26,386 got process_pong
+2018-01-02 09:19:30,325 got process_pong
+2018-01-02 09:19:34,354 got process_pong
+2018-01-02 09:19:38,382 got process_pong
+2018-01-02 09:19:42,419 got process_pong
+2018-01-02 09:19:46,358 got process_pong
+2018-01-02 09:19:50,396 got process_pong
+2018-01-02 09:19:54,377 got process_pong
+2018-01-02 09:19:58,373 got process_pong
+2018-01-02 09:20:02,408 got process_pong
+2018-01-02 09:20:06,340 got process_pong
+2018-01-02 09:20:10,385 got process_pong
+2018-01-02 09:20:14,414 got process_pong
+2018-01-02 09:20:18,339 got process_pong
+2018-01-02 09:20:22,385 got process_pong
+2018-01-02 09:20:26,420 got process_pong
+2018-01-02 09:20:30,331 got process_pong
+2018-01-02 09:20:34,380 got process_pong
+2018-01-02 09:20:38,406 got process_pong
+2018-01-02 09:20:42,424 got process_pong
+2018-01-02 09:20:46,360 got process_pong
+2018-01-02 09:20:50,406 got process_pong
+2018-01-02 09:20:54,434 got process_pong
+2018-01-02 09:20:58,328 got process_pong
+2018-01-02 09:21:02,368 got process_pong
+2018-01-02 09:21:06,372 got process_pong
+2018-01-02 09:21:10,404 got process_pong
+2018-01-02 09:21:14,415 got process_pong
+2018-01-02 09:21:18,344 got process_pong
+2018-01-02 09:21:22,393 got process_pong
+2018-01-02 09:21:26,336 got process_pong
+2018-01-02 09:21:30,387 got process_pong
+2018-01-02 09:21:34,426 got process_pong
+2018-01-02 09:21:38,367 got process_pong
+2018-01-02 09:21:42,381 got process_pong
+2018-01-02 09:21:46,430 got process_pong
+2018-01-02 09:21:50,357 got process_pong
+2018-01-02 09:21:54,391 got process_pong
+2018-01-02 09:21:58,417 got process_pong
+2018-01-02 09:22:01,375 got process_reconnect_url
+2018-01-02 09:22:02,359 got process_pong
+2018-01-02 09:22:06,414 got process_pong
+2018-01-02 09:22:10,335 got process_pong
+2018-01-02 09:22:14,339 got process_pong
+2018-01-02 09:22:18,335 got process_pong
+2018-01-02 09:22:22,367 got process_pong
+2018-01-02 09:22:26,373 got process_pong
+2018-01-02 09:22:30,406 got process_pong
+2018-01-02 09:22:34,348 got process_pong
+2018-01-02 09:22:38,303 got process_pong
+2018-01-02 09:22:42,320 got process_pong
+2018-01-02 09:22:46,394 got process_pong
+2018-01-02 09:22:50,354 got process_pong
+2018-01-02 09:22:54,391 got process_pong
+2018-01-02 09:22:58,416 got process_pong
+2018-01-02 09:23:02,356 got process_pong
+2018-01-02 09:23:06,404 got process_pong
+2018-01-02 09:23:10,335 got process_pong
+2018-01-02 09:23:14,369 got process_pong
+2018-01-02 09:23:18,421 got process_pong
+2018-01-02 09:23:22,324 got process_pong
+2018-01-02 09:23:26,416 got process_pong
+2018-01-02 09:23:26,740 got process_presence_change
+2018-01-02 09:23:41,880 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:23:41,902 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:23:42,642 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9205
+2018-01-02 09:23:42,861 Loading plugins
+2018-01-02 09:23:42,861 Importing plugins.directAPIcall
+2018-01-02 09:23:42,861 Problem importing plugins.directAPIcall - Module "plugins" does not define a "directAPIcall" attribute/class
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\utils\module_loading.py", line 20, in import_string
+    return getattr(module, class_name)
+AttributeError: module 'plugins' has no attribute 'directAPIcall'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\core.py", line 153, in load_plugins
+    cls = import_string(plugin_path)
+  File "c:\Python3632\lib\site-packages\rtmbot\utils\module_loading.py", line 24, in import_string
+    raise ImportError(msg)
+ImportError: Module "plugins" does not define a "directAPIcall" attribute/class
+2018-01-02 09:24:27,973 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:24:27,989 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:24:28,551 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9204
+2018-01-02 09:24:28,691 Loading plugins
+2018-01-02 09:24:28,691 Importing plugins.directAPIcall.RepeatPlugin
+2018-01-02 09:27:16,406 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:27:16,406 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:27:17,197 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9211
+2018-01-02 09:27:17,627 Loading plugins
+2018-01-02 09:27:17,627 Importing plugins.directAPIcall.RepeatPlugin
+2018-01-02 09:29:06,255 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:29:06,255 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:29:06,828 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9204
+2018-01-02 09:29:07,227 Loading plugins
+2018-01-02 09:29:07,228 Importing plugins.directAPIcall.RepeatPlugin
+2018-01-02 09:29:34,543 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:29:34,543 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:29:35,121 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9205
+2018-01-02 09:29:35,559 Loading plugins
+2018-01-02 09:29:35,559 Importing plugins.directAPIcall.RepeatPlugin
+2018-01-02 09:30:14,503 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:30:14,503 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:30:15,113 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9203
+2018-01-02 09:30:15,519 Loading plugins
+2018-01-02 09:30:15,519 Importing plugins.directAPIcall.RepeatPlugin
+2018-01-02 09:30:15,519 Problem importing plugins.directAPIcall.RepeatPlugin - No module named 'client'
+Traceback (most recent call last):
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\core.py", line 153, in load_plugins
+    cls = import_string(plugin_path)
+  File "c:\Python3632\lib\site-packages\rtmbot\utils\module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "c:\Python3632\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\directAPIcall.py", line 2, in <module>
+    from client import slack_client as sc
+ModuleNotFoundError: No module named 'client'
+2018-01-02 09:32:22,146 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:32:22,146 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:32:22,692 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9207
+2018-01-02 09:32:22,868 Loading plugins
+2018-01-02 09:32:22,868 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:32:22,868 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x03408090>
+2018-01-02 09:32:22,868 Registering jobs for RepeatPlugin
+2018-01-02 09:32:22,868 No jobs registered for RepeatPlugin
+2018-01-02 09:32:23,415 got process_hello
+2018-01-02 09:32:23,634 got process_pong
+2018-01-02 09:32:23,743 got process_reconnect_url
+2018-01-02 09:32:25,375 got process_presence_change
+2018-01-02 09:37:31,602 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:37:31,609 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:37:32,470 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9209
+2018-01-02 09:37:32,731 Loading plugins
+2018-01-02 09:37:32,732 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:37:32,740 Problem importing plugins.repeat.RepeatPlugin - No module named 'client'
+Traceback (most recent call last):
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\core.py", line 153, in load_plugins
+    cls = import_string(plugin_path)
+  File "c:\Python3632\lib\site-packages\rtmbot\utils\module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "c:\Python3632\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\repeat.py", line 3, in <module>
+    from client import slack_client as sc
+ModuleNotFoundError: No module named 'client'
+2018-01-02 09:41:45,381 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:41:45,381 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:41:45,966 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9202
+2018-01-02 09:41:46,200 Loading plugins
+2018-01-02 09:41:46,200 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:41:46,200 Problem importing plugins.repeat.RepeatPlugin - No module named 'client'
+Traceback (most recent call last):
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\core.py", line 154, in load_plugins
+    cls = import_string(plugin_path)
+  File "c:\Python3632\lib\site-packages\rtmbot\utils\module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "c:\Python3632\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\repeat.py", line 3, in <module>
+    from client import slack_client as sc
+ModuleNotFoundError: No module named 'client'
+2018-01-02 09:42:23,031 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:42:23,031 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:42:23,606 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9199
+2018-01-02 09:42:23,828 Loading plugins
+2018-01-02 09:42:23,828 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:43:17,881 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:43:17,885 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:43:18,450 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9209
+2018-01-02 09:43:18,896 Loading plugins
+2018-01-02 09:43:18,897 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:44:17,262 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:44:17,262 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:44:18,216 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9203
+2018-01-02 09:44:18,560 Loading plugins
+2018-01-02 09:44:18,623 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:47:20,731 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:47:20,731 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:47:21,590 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9206
+2018-01-02 09:47:21,813 Loading plugins
+2018-01-02 09:47:21,813 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:48:06,955 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:48:06,958 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:48:08,015 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9206
+2018-01-02 09:48:08,161 Loading plugins
+2018-01-02 09:48:08,162 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:48:56,751 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:48:56,751 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:48:57,829 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9198
+2018-01-02 09:48:58,126 Loading plugins
+2018-01-02 09:48:58,126 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:49:42,558 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:49:42,574 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:49:43,120 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9205
+2018-01-02 09:49:43,449 Loading plugins
+2018-01-02 09:49:43,449 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:52:22,802 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:52:22,815 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:52:23,475 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9203
+2018-01-02 09:52:23,863 Loading plugins
+2018-01-02 09:52:23,864 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:52:23,871 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x01A42550>
+2018-01-02 09:52:23,873 Registering jobs for RepeatPlugin
+2018-01-02 09:52:23,874 No jobs registered for RepeatPlugin
+2018-01-02 09:52:24,411 got process_hello
+2018-01-02 09:52:24,632 got process_pong
+2018-01-02 09:52:24,739 got process_reconnect_url
+2018-01-02 09:52:25,900 got process_presence_change
+2018-01-02 09:52:27,419 got process_pong
+2018-01-02 09:52:31,391 got process_pong
+2018-01-02 09:52:35,341 got process_pong
+2018-01-02 09:52:35,650 got process_user_typing
+2018-01-02 09:52:38,441 got process_message
+2018-01-02 09:52:38,442 Problem in Plugin Class: RepeatPlugin: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'test', 'ts': '1514861557.000122', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\repeat.py", line 10, in process_message
+    for user in sc.api_call("users.list")["members"]:
+TypeError: api_call() missing 1 required positional argument: 'method'
+2018-01-02 09:52:39,334 got process_pong
+2018-01-02 09:52:43,418 got process_pong
+2018-01-02 09:52:47,404 got process_pong
+2018-01-02 09:52:51,390 got process_pong
+2018-01-02 09:52:55,416 got process_pong
+2018-01-02 09:52:59,343 got process_pong
+2018-01-02 09:53:03,388 got process_pong
+2018-01-02 09:53:07,336 got process_pong
+2018-01-02 09:53:11,371 got process_pong
+2018-01-02 09:53:13,890 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:53:13,906 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:53:14,468 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9206
+2018-01-02 09:53:14,890 Loading plugins
+2018-01-02 09:53:14,890 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:53:14,890 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x042F8570>
+2018-01-02 09:53:14,890 Registering jobs for RepeatPlugin
+2018-01-02 09:53:14,890 No jobs registered for RepeatPlugin
+2018-01-02 09:53:15,437 got process_hello
+2018-01-02 09:53:15,656 got process_pong
+2018-01-02 09:53:15,765 got process_reconnect_url
+2018-01-02 09:53:16,969 got process_presence_change
+2018-01-02 09:53:18,394 got process_pong
+2018-01-02 09:53:22,429 got process_pong
+2018-01-02 09:53:23,488 got process_user_typing
+2018-01-02 09:53:23,899 got process_message
+2018-01-02 09:53:23,900 Problem in Plugin Class: RepeatPlugin: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'aa', 'ts': '1514861603.000061', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\repeat.py", line 10, in process_message
+    print(sc.api_call("users.list")["members"])
+TypeError: api_call() missing 1 required positional argument: 'method'
+2018-01-02 09:53:26,395 got process_pong
+2018-01-02 09:53:30,434 got process_pong
+2018-01-02 09:53:34,377 got process_pong
+2018-01-02 09:53:38,421 got process_pong
+2018-01-02 09:53:42,365 got process_pong
+2018-01-02 09:53:46,407 got process_pong
+2018-01-02 09:53:50,328 got process_pong
+2018-01-02 09:53:54,411 got process_pong
+2018-01-02 09:53:58,335 got process_pong
+2018-01-02 09:54:01,248 got process_reconnect_url
+2018-01-02 09:54:02,334 got process_pong
+2018-01-02 09:54:06,379 got process_pong
+2018-01-02 09:54:10,416 got process_pong
+2018-01-02 09:54:14,356 got process_pong
+2018-01-02 09:54:18,526 got process_pong
+2018-01-02 09:54:25,028 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:54:25,033 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:54:25,994 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9199
+2018-01-02 09:54:26,481 Loading plugins
+2018-01-02 09:54:26,482 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:54:26,488 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x03408210>
+2018-01-02 09:54:26,488 Registering jobs for RepeatPlugin
+2018-01-02 09:54:26,489 No jobs registered for RepeatPlugin
+2018-01-02 09:54:27,037 got process_hello
+2018-01-02 09:54:27,249 got process_pong
+2018-01-02 09:54:27,359 got process_reconnect_url
+2018-01-02 09:54:28,113 got process_presence_change
+2018-01-02 09:54:30,406 got process_pong
+2018-01-02 09:54:32,933 got process_user_typing
+2018-01-02 09:54:34,047 got process_message
+2018-01-02 09:54:34,048 Problem in Plugin Class: RepeatPlugin: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'asdasd', 'ts': '1514861673.000093', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\repeat.py", line 10, in process_message
+    print(sc.api_call("users.list")["members"])
+TypeError: api_call() missing 1 required positional argument: 'method'
+2018-01-02 09:54:34,350 got process_pong
+2018-01-02 09:54:38,367 got process_pong
+2018-01-02 09:54:42,319 got process_pong
+2018-01-02 09:54:46,314 got process_pong
+2018-01-02 09:54:50,337 got process_pong
+2018-01-02 09:54:54,364 got process_pong
+2018-01-02 09:54:58,385 got process_pong
+2018-01-02 09:55:02,312 got process_pong
+2018-01-02 09:55:06,351 got process_pong
+2018-01-02 09:55:10,403 got process_pong
+2018-01-02 09:55:14,419 got process_pong
+2018-01-02 09:55:18,425 got process_pong
+2018-01-02 09:55:22,361 got process_pong
+2018-01-02 09:55:26,375 got process_pong
+2018-01-02 09:55:30,389 got process_pong
+2018-01-02 09:55:34,343 got process_pong
+2018-01-02 09:55:38,380 got process_pong
+2018-01-02 09:55:58,910 got process_pong
+2018-01-02 09:56:00,279 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:56:00,295 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:56:01,347 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9203
+2018-01-02 09:56:01,784 Loading plugins
+2018-01-02 09:56:01,784 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:56:01,784 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x03408210>
+2018-01-02 09:56:01,784 Registering jobs for RepeatPlugin
+2018-01-02 09:56:01,784 No jobs registered for RepeatPlugin
+2018-01-02 09:56:02,331 got process_hello
+2018-01-02 09:56:02,550 got process_pong
+2018-01-02 09:56:02,659 got process_reconnect_url
+2018-01-02 09:56:02,769 got process_presence_change
+2018-01-02 09:56:04,195 got process_presence_change
+2018-01-02 09:56:05,387 got process_pong
+2018-01-02 09:56:09,385 got process_pong
+2018-01-02 09:56:12,630 got process_user_typing
+2018-01-02 09:56:13,238 got process_message
+2018-01-02 09:56:13,240 Problem in Plugin Class: RepeatPlugin: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'aaa', 'ts': '1514861772.000073', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\repeat.py", line 10, in process_message
+    print(sc.api_call("users.list")["members"])
+TypeError: api_call() missing 1 required positional argument: 'method'
+2018-01-02 09:56:13,458 got process_pong
+2018-01-02 09:56:17,332 got process_pong
+2018-01-02 09:56:21,345 got process_pong
+2018-01-02 09:56:25,383 got process_pong
+2018-01-02 09:56:29,392 got process_pong
+2018-01-02 09:56:33,428 got process_pong
+2018-01-02 09:56:37,366 got process_pong
+2018-01-02 09:56:40,740 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:56:40,740 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:56:41,839 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9206
+2018-01-02 09:56:41,999 Loading plugins
+2018-01-02 09:56:41,999 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:56:42,015 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x034081D0>
+2018-01-02 09:56:42,015 Registering jobs for RepeatPlugin
+2018-01-02 09:56:42,015 No jobs registered for RepeatPlugin
+2018-01-02 09:56:42,562 got process_hello
+2018-01-02 09:56:42,780 got process_pong
+2018-01-02 09:56:42,886 got process_reconnect_url
+2018-01-02 09:56:44,298 got process_presence_change
+2018-01-02 09:56:46,320 got process_pong
+2018-01-02 09:56:46,854 got process_user_typing
+2018-01-02 09:56:47,371 got process_message
+2018-01-02 09:56:47,372 Problem in Plugin Class: RepeatPlugin: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'a', 'ts': '1514861806.000097', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\repeat.py", line 12, in process_message
+    for user in sc.api_call("users.list")["members"]:
+TypeError: api_call() missing 1 required positional argument: 'method'
+2018-01-02 09:56:50,386 got process_pong
+2018-01-02 09:56:54,335 got process_pong
+2018-01-02 09:56:58,335 got process_pong
+2018-01-02 09:57:02,340 got process_pong
+2018-01-02 09:57:06,378 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:57:06,378 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:57:07,024 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9204
+2018-01-02 09:57:07,165 Loading plugins
+2018-01-02 09:57:07,180 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:57:07,180 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x012D1330>
+2018-01-02 09:57:07,196 Registering jobs for RepeatPlugin
+2018-01-02 09:57:07,196 No jobs registered for RepeatPlugin
+2018-01-02 09:57:07,743 got process_hello
+2018-01-02 09:57:07,952 got process_pong
+2018-01-02 09:57:08,062 got process_reconnect_url
+2018-01-02 09:57:08,171 got process_presence_change
+2018-01-02 09:57:09,374 got process_presence_change
+2018-01-02 09:57:11,329 got process_pong
+2018-01-02 09:57:12,250 got process_user_typing
+2018-01-02 09:57:12,665 got process_message
+2018-01-02 09:57:12,665 Problem in Plugin Class: RepeatPlugin: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'a', 'ts': '1514861831.000123', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\repeat.py", line 12, in process_message
+    for user in sc.api_call("users.list")["members"]:
+TypeError: api_call() missing 1 required positional argument: 'method'
+2018-01-02 09:57:15,373 got process_pong
+2018-01-02 09:57:19,393 got process_pong
+2018-01-02 09:57:23,394 got process_pong
+2018-01-02 09:57:27,358 got process_pong
+2018-01-02 09:57:31,329 got process_pong
+2018-01-02 09:57:35,340 got process_pong
+2018-01-02 09:57:39,400 got process_pong
+2018-01-02 09:57:43,371 got process_pong
+2018-01-02 09:57:47,318 got process_pong
+2018-01-02 09:57:51,349 got process_pong
+2018-01-02 09:57:55,371 got process_pong
+2018-01-02 09:57:59,318 got process_pong
+2018-01-02 09:58:01,197 got process_reconnect_url
+2018-01-02 09:58:03,321 got process_pong
+2018-01-02 09:58:07,353 got process_pong
+2018-01-02 09:58:11,383 got process_pong
+2018-01-02 09:58:15,345 got process_pong
+2018-01-02 09:58:19,386 got process_pong
+2018-01-02 09:58:23,413 got process_pong
+2018-01-02 09:58:27,426 got process_pong
+2018-01-02 09:58:31,344 got process_pong
+2018-01-02 09:58:35,348 got process_pong
+2018-01-02 09:58:39,368 got process_pong
+2018-01-02 09:58:43,383 got process_pong
+2018-01-02 09:58:47,408 got process_pong
+2018-01-02 09:58:51,420 got process_pong
+2018-01-02 09:58:55,341 got process_pong
+2018-01-02 09:58:59,380 got process_pong
+2018-01-02 09:59:03,427 got process_pong
+2018-01-02 09:59:07,349 got process_pong
+2018-01-02 09:59:11,399 got process_pong
+2018-01-02 09:59:15,411 got process_pong
+2018-01-02 09:59:19,345 got process_pong
+2018-01-02 09:59:23,393 got process_pong
+2018-01-02 09:59:27,397 got process_pong
+2018-01-02 09:59:31,408 got process_pong
+2018-01-02 09:59:35,348 got process_pong
+2018-01-02 09:59:40,380 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:59:40,380 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:59:40,996 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9206
+2018-01-02 09:59:41,239 Loading plugins
+2018-01-02 09:59:41,240 Importing plugins.repeat.RepeatPlugin
+2018-01-02 09:59:58,340 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 09:59:58,340 Starting new HTTPS connection (1): slack.com
+2018-01-02 09:59:58,903 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9207
+2018-01-02 09:59:59,340 Loading plugins
+2018-01-02 09:59:59,356 Importing plugins.repeat.RepeatPlugin
+2018-01-02 10:00:16,350 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:00:16,354 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:00:17,651 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9202
+2018-01-02 10:00:17,995 Loading plugins
+2018-01-02 10:00:17,995 Importing plugins.repeat.RepeatPlugin
+2018-01-02 10:00:30,232 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:00:30,232 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:00:30,810 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9205
+2018-01-02 10:00:31,216 Loading plugins
+2018-01-02 10:00:31,216 Importing plugins.repeat.RepeatPlugin
+2018-01-02 10:00:31,216 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x03408570>
+2018-01-02 10:00:31,216 Registering jobs for RepeatPlugin
+2018-01-02 10:00:31,216 No jobs registered for RepeatPlugin
+2018-01-02 10:00:31,754 got process_hello
+2018-01-02 10:00:31,967 got process_pong
+2018-01-02 10:00:32,076 got process_reconnect_url
+2018-01-02 10:00:33,604 got process_presence_change
+2018-01-02 10:00:35,358 got process_pong
+2018-01-02 10:00:39,335 got process_pong
+2018-01-02 10:00:39,637 got process_user_typing
+2018-01-02 10:00:40,141 got process_message
+2018-01-02 10:00:40,144 Problem in Plugin Class: RepeatPlugin: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'asdas', 'ts': '1514862039.000115', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\repeat.py", line 12, in process_message
+    channels_call = self.sc.api_call("channels.list")
+AttributeError: 'RepeatPlugin' object has no attribute 'sc'
+2018-01-02 10:00:43,377 got process_pong
+2018-01-02 10:01:01,795 got process_pong
+2018-01-02 10:01:01,899 got process_reconnect_url
+2018-01-02 10:01:03,075 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:01:03,075 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:01:03,622 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9207
+2018-01-02 10:01:03,850 Loading plugins
+2018-01-02 10:01:03,850 Importing plugins.repeat.RepeatPlugin
+2018-01-02 10:01:03,850 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x03408570>
+2018-01-02 10:01:03,850 Registering jobs for RepeatPlugin
+2018-01-02 10:01:03,850 No jobs registered for RepeatPlugin
+2018-01-02 10:01:04,396 got process_hello
+2018-01-02 10:01:04,615 got process_pong
+2018-01-02 10:01:04,725 got process_reconnect_url
+2018-01-02 10:01:04,839 got process_presence_change
+2018-01-02 10:01:05,605 got process_presence_change
+2018-01-02 10:01:07,310 got process_pong
+2018-01-02 10:01:07,621 got process_user_typing
+2018-01-02 10:01:08,559 got process_message
+2018-01-02 10:01:08,559 Problem in Plugin Class: RepeatPlugin: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'sada', 'ts': '1514862068.000020', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\repeat.py", line 12, in process_message
+    channels_call = sc.api_call("channels.list")
+TypeError: api_call() missing 1 required positional argument: 'method'
+2018-01-02 10:02:49,106 got process_pong
+2018-01-02 10:02:50,242 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:02:50,257 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:02:50,840 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9203
+2018-01-02 10:02:51,012 Loading plugins
+2018-01-02 10:02:51,012 Importing plugins.repeat.RepeatPlugin
+2018-01-02 10:02:51,012 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x03408210>
+2018-01-02 10:02:51,012 Registering jobs for RepeatPlugin
+2018-01-02 10:02:51,027 No jobs registered for RepeatPlugin
+2018-01-02 10:02:51,574 got process_hello
+2018-01-02 10:02:51,792 got process_pong
+2018-01-02 10:02:51,893 got process_reconnect_url
+2018-01-02 10:02:52,006 got process_presence_change
+2018-01-02 10:02:52,766 got process_presence_change
+2018-01-02 10:02:53,805 got process_user_typing
+2018-01-02 10:02:54,119 got process_message
+2018-01-02 10:02:54,121 Problem in Plugin Class: RepeatPlugin: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'a', 'ts': '1514862173.000098', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\repeat.py", line 12, in process_message
+    channels_call = sc.api_call("channels.list")
+TypeError: api_call() missing 1 required positional argument: 'method'
+2018-01-02 10:02:55,367 got process_pong
+2018-01-02 10:02:59,353 got process_pong
+2018-01-02 10:03:03,397 got process_pong
+2018-01-02 10:03:07,406 got process_pong
+2018-01-02 10:03:11,421 got process_pong
+2018-01-02 10:03:15,348 got process_pong
+2018-01-02 10:03:19,367 got process_pong
+2018-01-02 10:03:23,369 got process_pong
+2018-01-02 10:03:27,385 got process_pong
+2018-01-02 10:03:31,523 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:03:31,523 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:03:32,134 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9204
+2018-01-02 10:03:32,603 Loading plugins
+2018-01-02 10:03:32,603 Importing plugins.repeat.RepeatPlugin
+2018-01-02 10:03:32,603 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x03C88570>
+2018-01-02 10:03:32,603 Registering jobs for RepeatPlugin
+2018-01-02 10:03:32,603 No jobs registered for RepeatPlugin
+2018-01-02 10:03:33,147 got process_hello
+2018-01-02 10:03:33,366 got process_pong
+2018-01-02 10:03:33,476 got process_reconnect_url
+2018-01-02 10:03:33,585 got process_presence_change
+2018-01-02 10:03:34,820 got process_presence_change
+2018-01-02 10:03:35,021 got process_user_typing
+2018-01-02 10:03:35,324 got process_message
+2018-01-02 10:03:35,330 Problem in Plugin Class: RepeatPlugin: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'a', 'ts': '1514862214.000085', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\repeat.py", line 11, in process_message
+    channels_call = sc.api_call("channels.list")
+TypeError: api_call() missing 1 required positional argument: 'method'
+2018-01-02 10:03:36,367 got process_pong
+2018-01-02 10:03:40,388 got process_pong
+2018-01-02 10:03:44,331 got process_pong
+2018-01-02 10:03:48,328 got process_pong
+2018-01-02 10:03:52,383 got process_pong
+2018-01-02 10:03:56,373 got process_pong
+2018-01-02 10:03:58,877 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:03:58,877 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:03:59,517 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9206
+2018-01-02 10:04:00,095 Loading plugins
+2018-01-02 10:04:00,095 Importing plugins.repeat.RepeatPlugin
+2018-01-02 10:04:00,095 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x03408590>
+2018-01-02 10:04:00,095 Registering jobs for RepeatPlugin
+2018-01-02 10:04:00,095 No jobs registered for RepeatPlugin
+2018-01-02 10:04:00,642 got process_hello
+2018-01-02 10:04:00,866 got process_pong
+2018-01-02 10:04:00,976 got process_reconnect_url
+2018-01-02 10:04:01,085 got process_presence_change
+2018-01-02 10:04:01,194 got process_reconnect_url
+2018-01-02 10:04:01,847 got process_presence_change
+2018-01-02 10:04:04,390 got process_pong
+2018-01-02 10:04:05,339 got process_user_typing
+2018-01-02 10:04:05,648 got process_message
+2018-01-02 10:04:05,648 Problem in Plugin Class: RepeatPlugin: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'a', 'ts': '1514862245.000023', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\repeat.py", line 11, in process_message
+    channels_call = sc.api_call("channels.list")
+TypeError: api_call() missing 1 required positional argument: 'method'
+2018-01-02 10:04:08,323 got process_pong
+2018-01-02 10:04:12,361 got process_pong
+2018-01-02 10:04:16,392 got process_pong
+2018-01-02 10:04:20,424 got process_pong
+2018-01-02 10:04:24,332 got process_pong
+2018-01-02 10:04:28,419 got process_pong
+2018-01-02 10:04:30,545 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:04:30,550 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:04:31,860 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9210
+2018-01-02 10:04:32,078 Loading plugins
+2018-01-02 10:04:32,079 Importing plugins.repeat.RepeatPlugin
+2018-01-02 10:04:32,085 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x03408210>
+2018-01-02 10:04:32,085 Registering jobs for RepeatPlugin
+2018-01-02 10:04:32,085 No jobs registered for RepeatPlugin
+2018-01-02 10:04:32,643 got process_hello
+2018-01-02 10:04:32,862 got process_pong
+2018-01-02 10:04:32,971 got process_reconnect_url
+2018-01-02 10:04:33,850 got process_presence_change
+2018-01-02 10:04:36,366 got process_pong
+2018-01-02 10:04:37,967 got process_user_typing
+2018-01-02 10:04:38,379 got process_message
+2018-01-02 10:04:38,379 Problem in Plugin Class: RepeatPlugin: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'a', 'ts': '1514862278.000002', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\repeat.py", line 11, in process_message
+    print(sc.api_call("channels.list"))
+TypeError: api_call() missing 1 required positional argument: 'method'
+2018-01-02 10:04:40,390 got process_pong
+2018-01-02 10:04:44,371 got process_pong
+2018-01-02 10:04:48,345 got process_pong
+2018-01-02 10:04:52,382 got process_pong
+2018-01-02 10:04:56,413 got process_pong
+2018-01-02 10:05:00,420 got process_pong
+2018-01-02 10:05:04,343 got process_pong
+2018-01-02 10:05:08,388 got process_pong
+2018-01-02 10:05:12,425 got process_pong
+2018-01-02 10:05:16,344 got process_pong
+2018-01-02 10:05:19,949 got process_presence_change
+2018-01-02 10:05:20,391 got process_pong
+2018-01-02 10:05:24,415 got process_pong
+2018-01-02 10:05:28,360 got process_pong
+2018-01-02 10:05:32,400 got process_pong
+2018-01-02 10:05:36,415 got process_pong
+2018-01-02 10:05:40,401 got process_pong
+2018-01-02 10:05:44,409 got process_pong
+2018-01-02 10:05:48,331 got process_pong
+2018-01-02 10:05:52,347 got process_pong
+2018-01-02 10:05:56,383 got process_pong
+2018-01-02 10:05:57,615 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:05:57,615 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:05:58,248 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9201
+2018-01-02 10:05:58,693 Loading plugins
+2018-01-02 10:05:58,695 Importing plugins.repeat.RepeatPlugin
+2018-01-02 10:05:58,701 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x03408210>
+2018-01-02 10:05:58,702 Importing plugins.directAPIcall.RepeatPlugin
+2018-01-02 10:07:03,919 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:07:03,919 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:07:04,482 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9206
+2018-01-02 10:07:04,638 Loading plugins
+2018-01-02 10:07:04,654 Importing plugins.repeat.RepeatPlugin
+2018-01-02 10:07:04,654 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x03C08210>
+2018-01-02 10:07:04,654 Importing plugins.directAPIcall
+2018-01-02 10:16:29,225 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:16:29,225 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:16:29,944 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9201
+2018-01-02 10:16:30,351 Loading plugins
+2018-01-02 10:16:30,351 Importing plugins.repeat.RepeatPlugin
+2018-01-02 10:16:30,351 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x037D86B0>
+2018-01-02 10:16:30,351 Importing plugins.directAPIcall.APICall
+2018-01-02 10:16:57,857 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:16:57,857 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:16:58,439 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9201
+2018-01-02 10:16:58,754 Loading plugins
+2018-01-02 10:16:58,754 Importing plugins.repeat.RepeatPlugin
+2018-01-02 10:16:58,754 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x01D51830>
+2018-01-02 10:16:58,754 Importing plugins.directAPIcall.APICall
+2018-01-02 10:17:15,646 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:17:15,652 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:17:16,932 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9203
+2018-01-02 10:17:17,109 Loading plugins
+2018-01-02 10:17:17,110 Importing plugins.repeat.RepeatPlugin
+2018-01-02 10:17:17,115 Plugin registered: <plugins.repeat.RepeatPlugin object at 0x03408210>
+2018-01-02 10:17:17,116 Importing plugins.directAPIcall.APICall
+2018-01-02 10:17:17,118 Plugin registered: <plugins.directAPIcall.APICall object at 0x03408550>
+2018-01-02 10:17:17,119 Registering jobs for RepeatPlugin
+2018-01-02 10:17:17,120 No jobs registered for RepeatPlugin
+2018-01-02 10:17:17,138 Registering jobs for APICall
+2018-01-02 10:17:17,140 No jobs registered for APICall
+2018-01-02 10:17:17,675 got process_hello
+2018-01-02 10:17:17,884 got process_pong
+2018-01-02 10:17:17,987 got process_reconnect_url
+2018-01-02 10:17:18,940 got process_presence_change
+2018-01-02 10:17:21,429 got process_pong
+2018-01-02 10:17:25,403 got process_pong
+2018-01-02 10:17:29,323 got process_pong
+2018-01-02 10:17:29,625 got process_user_typing
+2018-01-02 10:17:29,826 got process_message
+2018-01-02 10:17:29,828 Problem in Plugin Class: APICall: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'print users', 'ts': '1514863049.000048', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+TypeError: process_message() takes 1 positional argument but 2 were given
+2018-01-02 10:17:33,381 got process_pong
+2018-01-02 10:17:37,423 got process_pong
+2018-01-02 10:17:41,405 got process_pong
+2018-01-02 10:17:45,422 got process_pong
+2018-01-02 10:17:49,333 got process_pong
+2018-01-02 10:17:53,383 got process_pong
+2018-01-02 10:17:57,422 got process_pong
+2018-01-02 10:18:01,352 got process_pong
+2018-01-02 10:18:05,393 got process_pong
+2018-01-02 10:18:09,429 got process_pong
+2018-01-02 10:18:13,333 got process_pong
+2018-01-02 10:18:17,357 got process_pong
+2018-01-02 10:18:19,929 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:18:19,929 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:18:21,020 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9199
+2018-01-02 10:18:21,314 Loading plugins
+2018-01-02 10:18:21,314 Importing plugins.directAPIcall.APICall
+2018-01-02 10:18:21,314 Plugin registered: <plugins.directAPIcall.APICall object at 0x041D86B0>
+2018-01-02 10:18:21,314 Registering jobs for APICall
+2018-01-02 10:18:21,314 No jobs registered for APICall
+2018-01-02 10:18:21,857 got process_hello
+2018-01-02 10:18:22,069 got process_pong
+2018-01-02 10:18:22,178 got process_reconnect_url
+2018-01-02 10:18:22,288 got process_presence_change
+2018-01-02 10:18:22,940 got process_presence_change
+2018-01-02 10:18:25,353 got process_pong
+2018-01-02 10:18:29,360 got process_pong
+2018-01-02 10:18:32,135 got process_user_typing
+2018-01-02 10:18:33,328 got process_pong
+2018-01-02 10:18:37,385 got process_pong
+2018-01-02 10:18:37,787 got process_user_typing
+2018-01-02 10:18:38,092 got process_message
+2018-01-02 10:18:38,092 Problem in Plugin Class: APICall: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'print users', 'ts': '1514863117.000074', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+TypeError: process_message() takes 1 positional argument but 2 were given
+2018-01-02 10:18:41,422 got process_pong
+2018-01-02 10:18:45,433 got process_pong
+2018-01-02 10:18:49,356 got process_pong
+2018-01-02 10:18:53,375 got process_pong
+2018-01-02 10:18:57,401 got process_pong
+2018-01-02 10:19:01,402 got process_pong
+2018-01-02 10:19:05,332 got process_pong
+2018-01-02 10:19:09,375 got process_pong
+2018-01-02 10:19:13,421 got process_pong
+2018-01-02 10:19:17,506 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:19:17,522 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:19:18,068 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9199
+2018-01-02 10:19:18,521 Loading plugins
+2018-01-02 10:19:18,521 Importing plugins.directAPIcall.APICall
+2018-01-02 10:19:18,521 Plugin registered: <plugins.directAPIcall.APICall object at 0x03409690>
+2018-01-02 10:19:18,521 Registering jobs for APICall
+2018-01-02 10:19:18,521 No jobs registered for APICall
+2018-01-02 10:19:19,061 got process_hello
+2018-01-02 10:19:19,271 got process_pong
+2018-01-02 10:19:19,371 got process_reconnect_url
+2018-01-02 10:19:19,882 got process_user_typing
+2018-01-02 10:19:20,198 got process_message
+2018-01-02 10:19:20,199 Problem in Plugin Class: APICall: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'a', 'ts': '1514863159.000080', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+TypeError: process_message() takes 1 positional argument but 2 were given
+2018-01-02 10:19:21,031 got process_presence_change
+2018-01-02 10:19:22,426 got process_pong
+2018-01-02 10:19:26,305 got process_pong
+2018-01-02 10:19:30,429 got process_pong
+2018-01-02 10:19:34,427 got process_pong
+2018-01-02 10:19:38,405 got process_pong
+2018-01-02 10:19:41,847 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:19:41,847 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:19:42,424 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9203
+2018-01-02 10:19:42,821 Loading plugins
+2018-01-02 10:19:42,821 Importing plugins.directAPIcall.APICall
+2018-01-02 10:19:42,821 Plugin registered: <plugins.directAPIcall.APICall object at 0x034081B0>
+2018-01-02 10:19:42,821 Registering jobs for APICall
+2018-01-02 10:19:42,821 No jobs registered for APICall
+2018-01-02 10:19:43,338 got process_hello
+2018-01-02 10:19:43,640 got process_pong
+2018-01-02 10:19:43,755 got process_reconnect_url
+2018-01-02 10:19:43,864 got process_user_typing
+2018-01-02 10:19:44,609 got process_message
+2018-01-02 10:19:44,611 Problem in Plugin Class: APICall: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'a', 'ts': '1514863184.000039', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+TypeError: process_message() takes 1 positional argument but 2 were given
+2018-01-02 10:19:45,034 got process_presence_change
+2018-01-02 10:19:46,335 got process_pong
+2018-01-02 10:19:50,437 got process_pong
+2018-01-02 10:19:54,356 got process_pong
+2018-01-02 10:19:58,366 got process_pong
+2018-01-02 10:20:01,104 got process_reconnect_url
+2018-01-02 10:20:02,374 got process_pong
+2018-01-02 10:20:04,901 got process_user_typing
+2018-01-02 10:20:05,619 got process_message
+2018-01-02 10:20:05,619 Problem in Plugin Class: APICall: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'dfghf', 'ts': '1514863205.000025', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+TypeError: process_message() takes 1 positional argument but 2 were given
+2018-01-02 10:20:06,362 got process_pong
+2018-01-02 10:20:10,433 got process_pong
+2018-01-02 10:20:14,363 got process_pong
+2018-01-02 10:20:18,416 got process_pong
+2018-01-02 10:20:22,434 got process_pong
+2018-01-02 10:20:26,349 got process_pong
+2018-01-02 10:20:30,334 got process_pong
+2018-01-02 10:20:34,371 got process_pong
+2018-01-02 10:20:38,421 got process_pong
+2018-01-02 10:20:43,214 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:20:43,214 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:20:44,288 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9201
+2018-01-02 10:20:44,723 Loading plugins
+2018-01-02 10:20:44,724 Importing plugins.directAPIcall.APICall
+2018-01-02 10:20:44,732 Plugin registered: <plugins.directAPIcall.APICall object at 0x034085F0>
+2018-01-02 10:20:44,734 Registering jobs for APICall
+2018-01-02 10:20:44,735 No jobs registered for APICall
+2018-01-02 10:20:45,272 got process_hello
+2018-01-02 10:20:45,489 got process_pong
+2018-01-02 10:20:45,597 got process_reconnect_url
+2018-01-02 10:20:45,706 got process_presence_change
+2018-01-02 10:20:47,199 got process_presence_change
+2018-01-02 10:20:48,351 got process_pong
+2018-01-02 10:20:52,030 got process_user_typing
+2018-01-02 10:20:52,333 got process_pong
+2018-01-02 10:20:52,860 got process_message
+2018-01-02 10:20:52,863 Problem in Plugin Class: APICall: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'aaa', 'ts': '1514863252.000066', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\directAPIcall.py", line 8, in process_message
+    for user in sc.api_call("users.list")["members"]:
+TypeError: api_call() missing 1 required positional argument: 'method'
+2018-01-02 10:20:56,317 got process_pong
+2018-01-02 10:21:00,335 got process_pong
+2018-01-02 10:21:04,340 got process_pong
+2018-01-02 10:21:08,366 got process_pong
+2018-01-02 10:21:12,392 got process_pong
+2018-01-02 10:21:16,429 got process_pong
+2018-01-02 10:21:20,355 got process_pong
+2018-01-02 10:21:24,372 got process_pong
+2018-01-02 10:21:28,421 got process_pong
+2018-01-02 10:21:32,330 got process_pong
+2018-01-02 10:21:36,385 got process_pong
+2018-01-02 10:21:40,384 got process_pong
+2018-01-02 10:21:41,727 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:21:41,743 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:21:42,309 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9206
+2018-01-02 10:21:42,637 Loading plugins
+2018-01-02 10:21:42,637 Importing plugins.directAPIcall.APICall
+2018-01-02 10:21:42,637 Plugin registered: <plugins.directAPIcall.APICall object at 0x043085D0>
+2018-01-02 10:21:42,637 Registering jobs for APICall
+2018-01-02 10:21:42,637 No jobs registered for APICall
+2018-01-02 10:21:43,184 got process_hello
+2018-01-02 10:21:43,403 got process_pong
+2018-01-02 10:21:43,503 got process_reconnect_url
+2018-01-02 10:21:43,607 got process_presence_change
+2018-01-02 10:21:44,228 got process_presence_change
+2018-01-02 10:21:45,081 got process_user_typing
+2018-01-02 10:21:45,696 got process_message
+2018-01-02 10:21:45,696 Problem in Plugin Class: APICall: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'aaa', 'ts': '1514863305.000025', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\directAPIcall.py", line 6, in process_message
+    print(slackclient)
+NameError: name 'slackclient' is not defined
+2018-01-02 10:21:46,341 got process_pong
+2018-01-02 10:21:50,381 got process_pong
+2018-01-02 10:21:54,351 got process_pong
+2018-01-02 10:21:58,342 got process_pong
+2018-01-02 10:22:01,053 got process_reconnect_url
+2018-01-02 10:22:02,370 got process_pong
+2018-01-02 10:22:06,375 got process_pong
+2018-01-02 10:22:11,533 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:22:11,533 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:22:12,581 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9207
+2018-01-02 10:22:12,756 Loading plugins
+2018-01-02 10:22:12,756 Importing plugins.directAPIcall.APICall
+2018-01-02 10:22:12,771 Plugin registered: <plugins.directAPIcall.APICall object at 0x034085F0>
+2018-01-02 10:22:12,771 Registering jobs for APICall
+2018-01-02 10:22:12,771 No jobs registered for APICall
+2018-01-02 10:22:13,275 got process_hello
+2018-01-02 10:22:13,576 got process_pong
+2018-01-02 10:22:13,678 got process_reconnect_url
+2018-01-02 10:22:15,315 got process_presence_change
+2018-01-02 10:22:16,397 got process_pong
+2018-01-02 10:22:16,616 got process_user_typing
+2018-01-02 10:22:17,340 got process_message
+2018-01-02 10:22:17,340 Problem in Plugin Class: APICall: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'fff', 'ts': '1514863336.000115', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\directAPIcall.py", line 6, in process_message
+    print(self.slackclient)
+AttributeError: 'APICall' object has no attribute 'slackclient'
+2018-01-02 10:22:20,339 got process_pong
+2018-01-02 10:22:24,411 got process_pong
+2018-01-02 10:22:28,433 got process_pong
+2018-01-02 10:22:32,362 got process_pong
+2018-01-02 10:22:36,401 got process_pong
+2018-01-02 10:22:40,337 got process_pong
+2018-01-02 10:22:44,364 got process_pong
+2018-01-02 10:22:48,412 got process_pong
+2018-01-02 10:22:50,743 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:22:50,758 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:22:51,779 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9205
+2018-01-02 10:22:52,086 Loading plugins
+2018-01-02 10:22:52,086 Importing plugins.directAPIcall.APICall
+2018-01-02 10:22:52,086 Plugin registered: <plugins.directAPIcall.APICall object at 0x034081B0>
+2018-01-02 10:22:52,086 Registering jobs for APICall
+2018-01-02 10:22:52,102 No jobs registered for APICall
+2018-01-02 10:22:52,649 got process_hello
+2018-01-02 10:22:52,867 got process_pong
+2018-01-02 10:22:52,977 got process_reconnect_url
+2018-01-02 10:22:54,282 got process_presence_change
+2018-01-02 10:22:56,354 got process_pong
+2018-01-02 10:22:59,253 got process_user_typing
+2018-01-02 10:23:00,070 got process_message
+2018-01-02 10:23:00,070 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:23:00,447 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3886
+2018-01-02 10:23:00,462 Problem in Plugin Class: APICall: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'sss', 'ts': '1514863379.000047', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\directAPIcall.py", line 7, in process_message
+    for user in sc.api_call("users.list")["members"]:
+NameError: name 'sc' is not defined
+2018-01-02 10:23:00,775 got process_pong
+2018-01-02 10:23:04,438 got process_pong
+2018-01-02 10:23:08,353 got process_pong
+2018-01-02 10:23:12,376 got process_pong
+2018-01-02 10:23:16,364 got process_pong
+2018-01-02 10:23:19,407 got process_presence_change
+2018-01-02 10:23:20,397 got process_pong
+2018-01-02 10:23:24,335 got process_pong
+2018-01-02 10:23:29,137 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:23:29,152 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:23:29,762 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9205
+2018-01-02 10:23:29,949 Loading plugins
+2018-01-02 10:23:29,949 Importing plugins.directAPIcall.APICall
+2018-01-02 10:23:29,965 Plugin registered: <plugins.directAPIcall.APICall object at 0x043185F0>
+2018-01-02 10:23:29,965 Registering jobs for APICall
+2018-01-02 10:23:29,965 No jobs registered for APICall
+2018-01-02 10:23:30,517 got process_hello
+2018-01-02 10:23:30,738 got process_pong
+2018-01-02 10:23:30,841 got process_reconnect_url
+2018-01-02 10:23:30,952 got process_presence_change
+2018-01-02 10:23:32,094 got process_user_typing
+2018-01-02 10:23:32,401 got process_presence_change
+2018-01-02 10:23:32,802 got process_message
+2018-01-02 10:23:32,802 Problem in Plugin Class: APICall: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'ssss', 'ts': '1514863412.000051', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\directAPIcall.py", line 6, in process_message
+    for user in sc.api_call("users.list")["members"]:
+NameError: name 'sc' is not defined
+2018-01-02 10:23:33,333 got process_pong
+2018-01-02 10:23:37,409 got process_pong
+2018-01-02 10:23:39,392 got process_user_typing
+2018-01-02 10:23:40,105 got process_message
+2018-01-02 10:23:40,105 Problem in Plugin Class: APICall: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'asdasda', 'ts': '1514863419.000078', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\directAPIcall.py", line 6, in process_message
+    for user in sc.api_call("users.list")["members"]:
+NameError: name 'sc' is not defined
+2018-01-02 10:23:41,380 got process_pong
+2018-01-02 10:23:45,373 got process_pong
+2018-01-02 10:23:49,391 got process_pong
+2018-01-02 10:23:53,427 got process_pong
+2018-01-02 10:23:57,404 got process_pong
+2018-01-02 10:24:01,128 got process_reconnect_url
+2018-01-02 10:24:01,444 got process_pong
+2018-01-02 10:24:05,358 got process_pong
+2018-01-02 10:24:09,396 got process_pong
+2018-01-02 10:24:13,412 got process_pong
+2018-01-02 10:24:15,237 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:24:15,237 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:24:15,833 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9200
+2018-01-02 10:24:16,254 Loading plugins
+2018-01-02 10:24:16,254 Importing plugins.directAPIcall.APICall
+2018-01-02 10:24:16,269 Plugin registered: <plugins.directAPIcall.APICall object at 0x034D8670>
+2018-01-02 10:24:16,269 Registering jobs for APICall
+2018-01-02 10:24:16,269 No jobs registered for APICall
+2018-01-02 10:24:16,783 got process_hello
+2018-01-02 10:24:16,985 got process_pong
+2018-01-02 10:24:17,085 got process_presence_change
+2018-01-02 10:24:17,193 got process_reconnect_url
+2018-01-02 10:24:17,946 got process_user_typing
+2018-01-02 10:24:18,480 got process_presence_change
+2018-01-02 10:24:20,422 got process_pong
+2018-01-02 10:24:23,348 got process_user_typing
+2018-01-02 10:24:24,395 got process_message
+2018-01-02 10:24:24,397 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:24:24,774 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3886
+2018-01-02 10:24:24,899 got process_pong
+2018-01-02 10:24:28,361 got process_pong
+2018-01-02 10:24:32,413 got process_pong
+2018-01-02 10:24:36,338 got process_pong
+2018-01-02 10:24:40,388 got process_pong
+2018-01-02 10:24:44,425 got process_pong
+2018-01-02 10:24:48,336 got process_pong
+2018-01-02 10:24:52,374 got process_pong
+2018-01-02 10:24:56,425 got process_pong
+2018-01-02 10:25:00,362 got process_pong
+2018-01-02 10:25:04,418 got process_pong
+2018-01-02 10:25:08,329 got process_pong
+2018-01-02 10:25:12,375 got process_pong
+2018-01-02 10:25:16,409 got process_pong
+2018-01-02 10:25:20,431 got process_pong
+2018-01-02 10:25:24,346 got process_pong
+2018-01-02 10:25:28,381 got process_pong
+2018-01-02 10:25:32,348 got process_pong
+2018-01-02 10:25:36,378 got process_pong
+2018-01-02 10:25:40,395 got process_pong
+2018-01-02 10:25:44,413 got process_pong
+2018-01-02 10:25:48,431 got process_pong
+2018-01-02 10:25:52,350 got process_pong
+2018-01-02 10:25:56,385 got process_pong
+2018-01-02 10:26:00,429 got process_pong
+2018-01-02 10:26:01,195 got process_reconnect_url
+2018-01-02 10:26:04,363 got process_pong
+2018-01-02 10:26:08,392 got process_pong
+2018-01-02 10:26:12,337 got process_pong
+2018-01-02 10:26:16,360 got process_pong
+2018-01-02 10:26:20,401 got process_pong
+2018-01-02 10:26:24,347 got process_pong
+2018-01-02 10:26:28,380 got process_pong
+2018-01-02 10:26:32,420 got process_pong
+2018-01-02 10:26:33,611 got process_presence_change
+2018-01-02 10:26:36,347 got process_pong
+2018-01-02 10:26:39,151 got process_user_typing
+2018-01-02 10:26:40,342 got process_pong
+2018-01-02 10:26:44,408 got process_pong
+2018-01-02 10:26:48,398 got process_pong
+2018-01-02 10:26:52,354 got process_pong
+2018-01-02 10:26:56,397 got process_pong
+2018-01-02 10:27:00,352 got process_pong
+2018-01-02 10:27:04,349 got process_pong
+2018-01-02 10:27:08,324 got process_pong
+2018-01-02 10:27:12,343 got process_pong
+2018-01-02 10:27:16,414 got process_pong
+2018-01-02 10:27:20,327 got process_pong
+2018-01-02 10:27:24,333 got process_pong
+2018-01-02 10:27:28,399 got process_pong
+2018-01-02 10:27:32,339 got process_pong
+2018-01-02 10:27:36,303 got process_pong
+2018-01-02 10:47:48,259 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:47:48,284 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:47:48,906 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9205
+2018-01-02 10:47:49,330 Loading plugins
+2018-01-02 10:47:49,332 Importing plugins.directAPIcall.APICall
+2018-01-02 10:48:29,185 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:48:29,197 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:48:30,234 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9200
+2018-01-02 10:48:30,687 Loading plugins
+2018-01-02 10:48:30,689 Importing plugins.directAPIcall.APICall
+2018-01-02 10:48:30,711 Plugin registered: <plugins.directAPIcall.APICall object at 0x03549EB0>
+2018-01-02 10:48:30,711 Registering jobs for APICall
+2018-01-02 10:48:30,712 No jobs registered for APICall
+2018-01-02 10:48:31,216 got process_hello
+2018-01-02 10:48:31,417 got process_pong
+2018-01-02 10:48:31,518 got process_reconnect_url
+2018-01-02 10:48:32,422 got process_presence_change
+2018-01-02 10:48:34,330 got process_pong
+2018-01-02 10:48:38,346 got process_pong
+2018-01-02 10:48:42,364 got process_pong
+2018-01-02 10:48:46,381 got process_pong
+2018-01-02 10:48:50,400 got process_pong
+2018-01-02 10:48:52,014 got process_user_typing
+2018-01-02 10:48:54,322 got process_pong
+2018-01-02 10:48:54,825 got process_message
+2018-01-02 10:48:54,826 Problem in Plugin Class: APICall: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'sync_member', 'ts': '1514864934.000027', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\directAPIcall.py", line 26, in process_message
+    insert()
+NameError: name 'insert' is not defined
+2018-01-02 10:48:58,351 got process_pong
+2018-01-02 10:49:02,368 got process_pong
+2018-01-02 10:49:06,388 got process_pong
+2018-01-02 10:49:10,306 got process_pong
+2018-01-02 10:49:14,327 got process_pong
+2018-01-02 10:49:18,350 got process_pong
+2018-01-02 10:49:22,368 got process_pong
+2018-01-02 10:49:26,387 got process_pong
+2018-01-02 10:49:30,311 got process_pong
+2018-01-02 10:49:32,526 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:49:32,538 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:49:33,129 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9208
+2018-01-02 10:49:33,451 Loading plugins
+2018-01-02 10:49:33,453 Importing plugins.directAPIcall.APICall
+2018-01-02 10:49:33,460 Plugin registered: <plugins.directAPIcall.APICall object at 0x03579BB0>
+2018-01-02 10:49:33,460 Registering jobs for APICall
+2018-01-02 10:49:33,461 No jobs registered for APICall
+2018-01-02 10:49:33,962 got process_hello
+2018-01-02 10:49:34,163 got process_pong
+2018-01-02 10:49:34,263 got process_reconnect_url
+2018-01-02 10:49:34,364 got process_presence_change
+2018-01-02 10:49:35,569 got process_presence_change
+2018-01-02 10:49:37,376 got process_pong
+2018-01-02 10:49:40,087 got process_user_typing
+2018-01-02 10:49:40,590 got process_message
+2018-01-02 10:49:40,590 Problem in Plugin Class: APICall: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'aaa', 'ts': '1514864980.000015', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\directAPIcall.py", line 26, in process_message
+    insert()
+NameError: name 'insert' is not defined
+2018-01-02 10:49:41,395 got process_pong
+2018-01-02 10:49:46,459 got process_pong
+2018-01-02 10:49:49,376 got process_pong
+2018-01-02 10:49:53,399 got process_pong
+2018-01-02 10:49:57,318 got process_pong
+2018-01-02 10:50:01,334 got process_pong
+2018-01-02 10:50:05,347 got process_pong
+2018-01-02 10:50:09,358 got process_pong
+2018-01-02 10:50:13,370 got process_pong
+2018-01-02 10:50:17,388 got process_pong
+2018-01-02 10:50:21,308 got process_pong
+2018-01-02 10:50:25,328 got process_pong
+2018-01-02 10:50:29,351 got process_pong
+2018-01-02 10:50:33,369 got process_pong
+2018-01-02 10:50:37,382 got process_pong
+2018-01-02 10:50:41,400 got process_pong
+2018-01-02 10:50:45,321 got process_pong
+2018-01-02 10:50:49,344 got process_pong
+2018-01-02 10:50:53,369 got process_pong
+2018-01-02 10:50:57,389 got process_pong
+2018-01-02 10:51:01,306 got process_pong
+2018-01-02 10:51:01,608 got process_reconnect_url
+2018-01-02 10:51:05,325 got process_pong
+2018-01-02 10:51:09,341 got process_pong
+2018-01-02 10:51:13,355 got process_pong
+2018-01-02 10:51:17,367 got process_pong
+2018-01-02 10:51:21,380 got process_pong
+2018-01-02 10:51:25,401 got process_pong
+2018-01-02 10:51:29,318 got process_pong
+2018-01-02 10:51:33,339 got process_pong
+2018-01-02 10:51:37,358 got process_pong
+2018-01-02 10:51:41,377 got process_pong
+2018-01-02 10:51:45,398 got process_pong
+2018-01-02 10:51:49,322 got process_pong
+2018-01-02 10:51:53,340 got process_pong
+2018-01-02 10:51:57,361 got process_pong
+2018-01-02 10:52:01,378 got process_pong
+2018-01-02 10:52:05,399 got process_pong
+2018-01-02 10:52:09,322 got process_pong
+2018-01-02 10:52:13,339 got process_pong
+2018-01-02 10:52:17,361 got process_pong
+2018-01-02 10:52:21,381 got process_pong
+2018-01-02 10:52:25,393 got process_pong
+2018-01-02 10:52:29,305 got process_pong
+2018-01-02 10:52:33,314 got process_pong
+2018-01-02 10:52:37,330 got process_pong
+2018-01-02 10:52:41,347 got process_pong
+2018-01-02 10:52:45,364 got process_pong
+2018-01-02 10:52:49,383 got process_pong
+2018-01-02 10:52:53,305 got process_pong
+2018-01-02 10:52:57,329 got process_pong
+2018-01-02 10:53:01,350 got process_pong
+2018-01-02 10:53:05,371 got process_pong
+2018-01-02 10:53:09,391 got process_pong
+2018-01-02 10:53:13,312 got process_pong
+2018-01-02 10:53:17,330 got process_pong
+2018-01-02 10:53:21,352 got process_pong
+2018-01-02 10:53:25,373 got process_pong
+2018-01-02 10:53:29,393 got process_pong
+2018-01-02 10:53:33,326 got process_pong
+2018-01-02 10:53:37,344 got process_pong
+2018-01-02 10:53:41,358 got process_pong
+2018-01-02 10:53:45,371 got process_pong
+2018-01-02 10:53:49,394 got process_pong
+2018-01-02 10:53:53,316 got process_pong
+2018-01-02 10:53:57,365 got process_pong
+2018-01-02 10:54:01,189 got process_reconnect_url
+2018-01-02 10:54:01,390 got process_pong
+2018-01-02 10:54:05,312 got process_pong
+2018-01-02 10:54:09,336 got process_pong
+2018-01-02 10:54:13,356 got process_pong
+2018-01-02 10:54:17,372 got process_pong
+2018-01-02 10:54:21,391 got process_pong
+2018-01-02 10:54:25,307 got process_pong
+2018-01-02 10:54:29,331 got process_pong
+2018-01-02 10:54:33,350 got process_pong
+2018-01-02 10:54:37,368 got process_pong
+2018-01-02 10:54:41,389 got process_pong
+2018-01-02 10:54:45,303 got process_pong
+2018-01-02 10:54:49,316 got process_pong
+2018-01-02 10:54:52,330 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:54:52,345 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:54:53,001 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9205
+2018-01-02 10:54:54,150 Loading plugins
+2018-01-02 10:54:54,153 Importing plugins.directAPIcall.APICall
+2018-01-02 10:54:54,161 Plugin registered: <plugins.directAPIcall.APICall object at 0x038297B0>
+2018-01-02 10:54:54,161 Registering jobs for APICall
+2018-01-02 10:54:54,162 No jobs registered for APICall
+2018-01-02 10:54:54,666 got process_hello
+2018-01-02 10:54:54,967 got process_pong
+2018-01-02 10:54:55,068 got process_reconnect_url
+2018-01-02 10:54:55,170 got process_presence_change
+2018-01-02 10:54:55,972 got process_presence_change
+2018-01-02 10:54:58,381 got process_pong
+2018-01-02 10:55:02,399 got process_pong
+2018-01-02 10:55:03,603 got process_user_typing
+2018-01-02 10:55:04,212 got process_message
+2018-01-02 10:55:04,213 Problem in Plugin Class: APICall: process_message 
+{'type': 'message', 'channel': 'C8C1B6JVD', 'user': 'U7UM3H9EU', 'text': 'xxx', 'ts': '1514865303.000086', 'source_team': 'T5TG1R3V4', 'team': 'T5TG1R3V4'}
+Traceback (most recent call last):
+  File "c:\Python3632\lib\site-packages\rtmbot\core.py", line 205, in do
+    func(data)
+  File "C:\Python3632\Scripts\rtm5l4ckb0t\plugins\directAPIcall.py", line 27, in process_message
+    insert()
+NameError: name 'insert' is not defined
+2018-01-02 10:55:06,325 got process_pong
+2018-01-02 10:55:10,342 got process_pong
+2018-01-02 10:55:14,360 got process_pong
+2018-01-02 10:55:18,382 got process_pong
+2018-01-02 10:55:22,305 got process_pong
+2018-01-02 10:55:26,324 got process_pong
+2018-01-02 10:55:30,340 got process_pong
+2018-01-02 10:55:34,358 got process_pong
+2018-01-02 10:55:38,376 got process_pong
+2018-01-02 10:55:42,398 got process_pong
+2018-01-02 10:55:46,320 got process_pong
+2018-01-02 10:55:50,341 got process_pong
+2018-01-02 10:55:54,358 got process_pong
+2018-01-02 10:55:58,368 got process_pong
+2018-01-02 10:56:01,179 got process_reconnect_url
+2018-01-02 10:56:02,382 got process_pong
+2018-01-02 10:56:06,400 got process_pong
+2018-01-02 10:56:10,320 got process_pong
+2018-01-02 10:56:14,344 got process_pong
+2018-01-02 10:56:18,367 got process_pong
+2018-01-02 10:56:22,389 got process_pong
+2018-01-02 10:56:26,310 got process_pong
+2018-01-02 10:56:30,325 got process_pong
+2018-01-02 10:56:34,341 got process_pong
+2018-01-02 10:56:38,364 got process_pong
+2018-01-02 10:56:42,383 got process_pong
+2018-01-02 10:56:46,307 got process_pong
+2018-01-02 10:56:50,326 got process_pong
+2018-01-02 10:56:54,347 got process_pong
+2018-01-02 10:56:58,363 got process_pong
+2018-01-02 10:57:02,381 got process_pong
+2018-01-02 10:57:06,397 got process_pong
+2018-01-02 10:57:10,309 got process_pong
+2018-01-02 10:57:14,316 got process_pong
+2018-01-02 10:57:18,337 got process_pong
+2018-01-02 10:57:22,357 got process_pong
+2018-01-02 10:57:26,376 got process_pong
+2018-01-02 10:57:30,400 got process_pong
+2018-01-02 10:57:33,110 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:57:33,123 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:57:33,752 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9203
+2018-01-02 10:57:34,059 Loading plugins
+2018-01-02 10:57:34,061 Importing plugins.directAPIcall.APICall
+2018-01-02 10:57:34,068 Plugin registered: <plugins.directAPIcall.APICall object at 0x03549EB0>
+2018-01-02 10:57:34,068 Registering jobs for APICall
+2018-01-02 10:57:34,071 No jobs registered for APICall
+2018-01-02 10:57:34,573 got process_hello
+2018-01-02 10:58:23,721 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:58:23,732 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:58:24,317 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9201
+2018-01-02 10:58:24,777 Loading plugins
+2018-01-02 10:58:24,778 Importing plugins.directAPIcall.APICall
+2018-01-02 10:58:24,785 Plugin registered: <plugins.directAPIcall.APICall object at 0x040D9BB0>
+2018-01-02 10:58:24,785 Registering jobs for APICall
+2018-01-02 10:58:24,787 No jobs registered for APICall
+2018-01-02 10:58:25,291 got process_hello
+2018-01-02 10:58:56,190 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 10:58:56,200 Starting new HTTPS connection (1): slack.com
+2018-01-02 10:58:56,792 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9202
+2018-01-02 10:58:57,170 Loading plugins
+2018-01-02 10:58:57,171 Importing plugins.directAPIcall.APICall
+2018-01-02 10:58:57,177 Plugin registered: <plugins.directAPIcall.APICall object at 0x03549EB0>
+2018-01-02 10:58:57,178 Registering jobs for APICall
+2018-01-02 10:58:57,178 No jobs registered for APICall
+2018-01-02 10:58:57,680 got process_hello
+2018-01-02 10:58:57,983 got process_pong
+2018-01-02 10:58:58,083 got process_reconnect_url
+2018-01-02 10:58:59,289 got process_presence_change
+2018-01-02 10:59:01,400 got process_pong
+2018-01-02 10:59:05,319 got process_pong
+2018-01-02 10:59:09,341 got process_pong
+2018-01-02 10:59:13,357 got process_pong
+2018-01-02 10:59:17,374 got process_pong
+2018-01-02 10:59:21,395 got process_pong
+2018-01-02 10:59:25,311 got process_pong
+2018-01-02 10:59:29,323 got process_pong
+2018-01-02 10:59:33,335 got process_pong
+2018-01-02 10:59:37,352 got process_pong
+2018-01-02 10:59:41,370 got process_pong
+2018-01-02 10:59:45,381 got process_pong
+2018-01-02 10:59:49,397 got process_pong
+2018-01-02 10:59:53,316 got process_pong
+2018-01-02 10:59:57,332 got process_pong
+2018-01-02 11:00:01,253 got process_reconnect_url
+2018-01-02 11:00:01,457 got process_pong
+2018-01-02 11:00:05,375 got process_pong
+2018-01-02 11:00:09,396 got process_pong
+2018-01-02 11:00:13,315 got process_pong
+2018-01-02 11:00:17,328 got process_pong
+2018-01-02 11:00:21,343 got process_pong
+2018-01-02 11:00:23,431 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 11:00:23,443 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:00:24,069 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9205
+2018-01-02 11:00:24,746 Loading plugins
+2018-01-02 11:00:24,748 Importing plugins.directAPIcall.APICall
+2018-01-02 11:00:24,755 Plugin registered: <plugins.directAPIcall.APICall object at 0x038D9350>
+2018-01-02 11:00:24,756 Registering jobs for APICall
+2018-01-02 11:00:24,758 No jobs registered for APICall
+2018-01-02 11:00:25,263 got process_hello
+2018-01-02 11:02:38,510 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 11:02:38,521 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:02:39,183 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9204
+2018-01-02 11:02:39,605 Loading plugins
+2018-01-02 11:02:39,607 Importing plugins.directAPIcall.APICall
+2018-01-02 11:02:39,619 Plugin registered: <plugins.directAPIcall.APICall object at 0x03679FF0>
+2018-01-02 11:02:39,619 Registering jobs for APICall
+2018-01-02 11:02:39,622 No jobs registered for APICall
+2018-01-02 11:02:40,126 got process_hello
+2018-01-02 11:03:10,186 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 11:03:10,198 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:03:10,802 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9201
+2018-01-02 11:03:11,031 Loading plugins
+2018-01-02 11:03:11,032 Importing plugins.directAPIcall.APICall
+2018-01-02 11:03:11,038 Plugin registered: <plugins.directAPIcall.APICall object at 0x03549E90>
+2018-01-02 11:03:11,039 Registering jobs for APICall
+2018-01-02 11:03:11,040 No jobs registered for APICall
+2018-01-02 11:03:11,543 got process_hello
+2018-01-02 11:03:11,550 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:03:11,929 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3886
+2018-01-02 11:03:38,277 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 11:03:38,289 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:03:39,376 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9204
+2018-01-02 11:03:39,557 Loading plugins
+2018-01-02 11:03:39,559 Importing plugins.directAPIcall.APICall
+2018-01-02 11:03:39,568 Plugin registered: <plugins.directAPIcall.APICall object at 0x03549B10>
+2018-01-02 11:03:39,570 Registering jobs for APICall
+2018-01-02 11:03:39,570 No jobs registered for APICall
+2018-01-02 11:03:40,074 got process_hello
+2018-01-02 11:03:40,082 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:03:41,170 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 11:03:55,035 got process_pong
+2018-01-02 11:03:55,043 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:03:55,439 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3886
+2018-01-02 11:06:03,264 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 11:06:03,275 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:06:03,957 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9201
+2018-01-02 11:06:04,289 Loading plugins
+2018-01-02 11:06:04,291 Importing plugins.directAPIcall.APICall
+2018-01-02 11:06:13,665 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 11:06:13,676 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:06:14,265 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9209
+2018-01-02 11:06:14,446 Loading plugins
+2018-01-02 11:06:14,448 Importing plugins.directAPIcall.APICall
+2018-01-02 11:06:14,455 Plugin registered: <plugins.directAPIcall.APICall object at 0x03549BB0>
+2018-01-02 11:06:14,456 Registering jobs for APICall
+2018-01-02 11:06:14,457 No jobs registered for APICall
+2018-01-02 11:06:14,961 got process_hello
+2018-01-02 11:06:14,972 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:06:15,847 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3886
+2018-01-02 11:06:24,626 got process_pong
+2018-01-02 11:06:24,636 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:06:25,019 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3886
+2018-01-02 11:09:46,997 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 11:09:47,010 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:09:47,643 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9207
+2018-01-02 11:09:48,318 Loading plugins
+2018-01-02 11:09:48,318 Importing plugins.directAPIcall.APICall
+2018-01-02 11:09:48,322 Plugin registered: <plugins.directAPIcall.APICall object at 0x0356AC70>
+2018-01-02 11:09:48,322 Registering jobs for APICall
+2018-01-02 11:09:48,344 No jobs registered for APICall
+2018-01-02 11:09:48,848 got process_hello
+2018-01-02 11:09:48,855 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:09:49,312 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3886
+2018-01-02 11:09:55,777 got process_pong
+2018-01-02 11:09:55,786 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:09:56,169 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3886
+2018-01-02 11:10:45,765 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 11:10:45,776 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:10:46,361 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9209
+2018-01-02 11:10:46,589 Loading plugins
+2018-01-02 11:10:46,590 Importing plugins.directAPIcall.APICall
+2018-01-02 11:10:46,598 Plugin registered: <plugins.directAPIcall.APICall object at 0x03549EB0>
+2018-01-02 11:10:46,600 Registering jobs for APICall
+2018-01-02 11:10:46,601 No jobs registered for APICall
+2018-01-02 11:10:47,104 got process_hello
+2018-01-02 11:10:47,111 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:10:47,498 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 11:10:47,617 got process_pong
+2018-01-02 11:10:47,625 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:10:48,019 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 11:10:48,138 got process_reconnect_url
+2018-01-02 11:10:48,145 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:10:48,517 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 11:10:48,637 got process_presence_change
+2018-01-02 11:10:48,644 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:10:49,035 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 11:10:49,156 got process_presence_change
+2018-01-02 11:10:49,164 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:10:49,542 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 11:13:25,140 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 11:13:25,155 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:13:26,455 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9206
+2018-01-02 11:13:26,902 Loading plugins
+2018-01-02 11:13:26,904 Importing plugins.directAPIcall.APICall
+2018-01-02 11:17:33,220 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 11:17:33,229 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:17:33,794 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9205
+2018-01-02 11:17:34,089 Loading plugins
+2018-01-02 11:17:34,090 Importing plugins.directAPIcall.APICall
+2018-01-02 11:17:34,096 Plugin registered: <plugins.directAPIcall.APICall object at 0x00601970>
+2018-01-02 11:17:34,097 Registering jobs for APICall
+2018-01-02 11:17:34,098 No jobs registered for APICall
+2018-01-02 11:17:34,601 got process_hello
+2018-01-02 11:17:34,607 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:17:34,982 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 11:17:35,105 got process_pong
+2018-01-02 11:17:35,111 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:17:35,486 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 11:17:35,605 got process_reconnect_url
+2018-01-02 11:17:35,612 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:17:35,992 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 11:17:36,117 got process_presence_change
+2018-01-02 11:17:36,124 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:17:36,509 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 11:18:35,591 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 11:18:35,599 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:18:36,206 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9207
+2018-01-02 11:18:36,411 Loading plugins
+2018-01-02 11:18:36,414 Importing plugins.directAPIcall.APICall
+2018-01-02 11:18:36,423 Plugin registered: <plugins.directAPIcall.APICall object at 0x0354B950>
+2018-01-02 11:18:36,423 Registering jobs for APICall
+2018-01-02 11:18:36,424 No jobs registered for APICall
+2018-01-02 11:18:36,928 got process_hello
+2018-01-02 11:19:22,824 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 11:19:22,832 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:19:23,478 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9202
+2018-01-02 11:19:23,985 Loading plugins
+2018-01-02 11:19:23,987 Importing plugins.directAPIcall.APICall
+2018-01-02 11:19:23,994 Plugin registered: <plugins.directAPIcall.APICall object at 0x0354B910>
+2018-01-02 11:19:23,999 Registering jobs for APICall
+2018-01-02 11:19:24,000 No jobs registered for APICall
+2018-01-02 11:19:24,503 got process_hello
+2018-01-02 11:19:24,511 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:19:24,889 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3886
+2018-01-02 11:19:32,670 got process_pong
+2018-01-02 11:19:32,677 Starting new HTTPS connection (1): slack.com
+2018-01-02 11:19:33,062 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 12:37:54,576 got process_reconnect_url
+2018-01-02 12:37:54,594 Starting new HTTPS connection (1): slack.com
+2018-01-02 12:37:55,145 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3886
+2018-01-02 12:39:38,469 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 12:39:38,474 Starting new HTTPS connection (1): slack.com
+2018-01-02 12:39:39,845 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9198
+2018-01-02 12:39:40,271 Loading plugins
+2018-01-02 12:39:40,271 Importing plugins.directAPIcall.APICall
+2018-01-02 12:40:30,737 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 12:40:30,743 Starting new HTTPS connection (1): slack.com
+2018-01-02 12:40:31,520 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9199
+2018-01-02 12:40:32,003 Loading plugins
+2018-01-02 12:40:32,004 Importing plugins.directAPIcall.APICall
+2018-01-02 12:43:24,649 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 12:43:24,656 Starting new HTTPS connection (1): slack.com
+2018-01-02 12:43:25,388 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9200
+2018-01-02 12:43:25,634 Loading plugins
+2018-01-02 12:43:25,636 Importing plugins.directAPIcall.APICall
+2018-01-02 12:43:44,742 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 12:43:44,748 Starting new HTTPS connection (1): slack.com
+2018-01-02 12:43:45,315 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9202
+2018-01-02 12:43:45,468 Loading plugins
+2018-01-02 12:43:45,470 Importing plugins.directAPIcall.APICall
+2018-01-02 12:43:45,476 Plugin registered: <plugins.directAPIcall.APICall object at 0x03549990>
+2018-01-02 12:43:45,477 Registering jobs for APICall
+2018-01-02 12:43:45,477 No jobs registered for APICall
+2018-01-02 12:43:45,979 got process_hello
+2018-01-02 12:43:45,985 Starting new HTTPS connection (1): slack.com
+2018-01-02 12:43:46,355 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 12:53:12,945 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 12:53:12,951 Starting new HTTPS connection (1): slack.com
+2018-01-02 12:53:14,406 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9206
+2018-01-02 12:53:14,692 Loading plugins
+2018-01-02 12:53:14,694 Importing plugins.directAPIcall.APICall
+2018-01-02 12:53:14,702 Plugin registered: <plugins.directAPIcall.APICall object at 0x04149990>
+2018-01-02 12:53:14,704 Registering jobs for APICall
+2018-01-02 12:53:14,708 No jobs registered for APICall
+2018-01-02 12:53:15,210 got process_hello
+2018-01-02 12:53:15,217 Starting new HTTPS connection (1): slack.com
+2018-01-02 12:53:15,697 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 12:53:18,932 got process_pong
+2018-01-02 12:53:18,939 Starting new HTTPS connection (1): slack.com
+2018-01-02 12:53:19,423 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 12:54:28,151 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 12:54:28,157 Starting new HTTPS connection (1): slack.com
+2018-01-02 12:54:28,899 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9200
+2018-01-02 12:54:29,049 Loading plugins
+2018-01-02 12:54:29,051 Importing plugins.directAPIcall.APICall
+2018-01-02 12:54:29,055 Plugin registered: <plugins.directAPIcall.APICall object at 0x019046F0>
+2018-01-02 12:54:29,056 Registering jobs for APICall
+2018-01-02 12:54:29,056 No jobs registered for APICall
+2018-01-02 12:54:29,558 got process_hello
+2018-01-02 12:54:29,565 Starting new HTTPS connection (1): slack.com
+2018-01-02 12:54:29,938 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 12:57:58,818 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 12:57:58,821 Starting new HTTPS connection (1): slack.com
+2018-01-02 12:57:59,567 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9202
+2018-01-02 12:57:59,713 Loading plugins
+2018-01-02 12:57:59,713 Importing plugins.directAPIcall.APICall
+2018-01-02 12:57:59,716 Plugin registered: <plugins.directAPIcall.APICall object at 0x019B4710>
+2018-01-02 12:57:59,716 Registering jobs for APICall
+2018-01-02 12:57:59,717 No jobs registered for APICall
+2018-01-02 12:58:00,220 got process_hello
+2018-01-02 12:58:00,226 Starting new HTTPS connection (1): slack.com
+2018-01-02 12:58:00,607 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 13:01:26,397 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:01:26,402 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:01:26,972 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9207
+2018-01-02 13:01:27,116 Loading plugins
+2018-01-02 13:01:27,120 Importing plugins.directAPIcall.APICall
+2018-01-02 13:07:59,519 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:07:59,524 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:08:00,248 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9196
+2018-01-02 13:08:00,503 Loading plugins
+2018-01-02 13:08:00,503 Importing plugins.directAPIcall.APICall
+2018-01-02 13:08:00,508 Plugin registered: <plugins.directAPIcall.APICall object at 0x01C91970>
+2018-01-02 13:08:00,508 Registering jobs for APICall
+2018-01-02 13:08:00,508 No jobs registered for APICall
+2018-01-02 13:08:01,028 got process_hello
+2018-01-02 13:08:55,149 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:08:55,156 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:08:56,486 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9205
+2018-01-02 13:08:56,689 Loading plugins
+2018-01-02 13:08:56,691 Importing plugins.directAPIcall.APICall
+2018-01-02 13:08:56,697 Plugin registered: <plugins.directAPIcall.APICall object at 0x03549A10>
+2018-01-02 13:08:56,698 Registering jobs for APICall
+2018-01-02 13:08:56,698 No jobs registered for APICall
+2018-01-02 13:08:57,203 got process_hello
+2018-01-02 13:08:57,210 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:08:58,358 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3886
+2018-01-02 13:09:50,143 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:09:50,148 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:09:51,532 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9202
+2018-01-02 13:09:51,735 Loading plugins
+2018-01-02 13:09:51,736 Importing plugins.directAPIcall.APICall
+2018-01-02 13:09:51,743 Plugin registered: <plugins.directAPIcall.APICall object at 0x03549A10>
+2018-01-02 13:09:51,743 Registering jobs for APICall
+2018-01-02 13:09:51,744 No jobs registered for APICall
+2018-01-02 13:09:52,247 got process_hello
+2018-01-02 13:10:24,506 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:10:24,510 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:10:25,853 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9203
+2018-01-02 13:10:26,114 Loading plugins
+2018-01-02 13:10:26,116 Importing plugins.directAPIcall.APICall
+2018-01-02 13:10:26,125 Plugin registered: <plugins.directAPIcall.APICall object at 0x03549C30>
+2018-01-02 13:10:26,126 Registering jobs for APICall
+2018-01-02 13:10:26,127 No jobs registered for APICall
+2018-01-02 13:10:26,629 got process_hello
+2018-01-02 13:10:43,151 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:10:43,155 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:10:44,264 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9202
+2018-01-02 13:10:44,414 Loading plugins
+2018-01-02 13:10:44,416 Importing plugins.directAPIcall.APICall
+2018-01-02 13:10:44,423 Plugin registered: <plugins.directAPIcall.APICall object at 0x03549A10>
+2018-01-02 13:10:44,423 Registering jobs for APICall
+2018-01-02 13:10:44,424 No jobs registered for APICall
+2018-01-02 13:10:44,926 got process_hello
+2018-01-02 13:11:01,849 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:11:01,856 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:11:03,256 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9202
+2018-01-02 13:11:03,406 Loading plugins
+2018-01-02 13:11:03,408 Importing plugins.directAPIcall.APICall
+2018-01-02 13:11:03,413 Plugin registered: <plugins.directAPIcall.APICall object at 0x03F39C70>
+2018-01-02 13:11:03,416 Registering jobs for APICall
+2018-01-02 13:11:03,419 No jobs registered for APICall
+2018-01-02 13:11:03,921 got process_hello
+2018-01-02 13:11:33,782 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:11:33,786 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:11:34,915 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9203
+2018-01-02 13:11:35,091 Loading plugins
+2018-01-02 13:11:35,093 Importing plugins.directAPIcall.APICall
+2018-01-02 13:11:35,097 Plugin registered: <plugins.directAPIcall.APICall object at 0x018D46F0>
+2018-01-02 13:11:35,098 Registering jobs for APICall
+2018-01-02 13:11:35,099 No jobs registered for APICall
+2018-01-02 13:11:35,600 got process_hello
+2018-01-02 13:11:57,217 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:11:57,223 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:11:58,560 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9203
+2018-01-02 13:11:58,722 Loading plugins
+2018-01-02 13:11:58,724 Importing plugins.directAPIcall.APICall
+2018-01-02 13:11:58,732 Plugin registered: <plugins.directAPIcall.APICall object at 0x04347A30>
+2018-01-02 13:11:58,732 Registering jobs for APICall
+2018-01-02 13:11:58,735 No jobs registered for APICall
+2018-01-02 13:11:59,237 got process_hello
+2018-01-02 13:11:59,249 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:12:00,377 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3886
+2018-01-02 13:12:00,496 got process_pong
+2018-01-02 13:12:00,503 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:12:01,649 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 13:12:01,785 got process_reconnect_url
+2018-01-02 13:12:01,792 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:23:25,312 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:23:25,320 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:23:26,526 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9204
+2018-01-02 13:23:26,747 Loading plugins
+2018-01-02 13:23:26,749 Importing plugins.directAPIcall.APICall
+2018-01-02 13:23:26,781 Plugin registered: <plugins.directAPIcall.APICall object at 0x03557CD0>
+2018-01-02 13:23:26,781 Registering jobs for APICall
+2018-01-02 13:23:26,782 No jobs registered for APICall
+2018-01-02 13:23:27,285 got process_hello
+2018-01-02 13:23:32,529 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:23:33,655 https://slack.com:443 "POST /api/users.list HTTP/1.1" 200 3887
+2018-01-02 13:23:33,773 got process_pong
+2018-01-02 13:24:47,108 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:24:47,112 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:24:48,592 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9199
+2018-01-02 13:24:48,798 Loading plugins
+2018-01-02 13:24:48,798 Importing plugins.directAPIcall.APICall
+2018-01-02 13:24:48,800 Plugin registered: <plugins.directAPIcall.APICall object at 0x01F41970>
+2018-01-02 13:24:48,800 Registering jobs for APICall
+2018-01-02 13:24:48,800 No jobs registered for APICall
+2018-01-02 13:24:49,302 got process_hello
+2018-01-02 13:24:53,839 got process_pong
+2018-01-02 13:25:22,750 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:25:22,754 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:25:24,096 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9202
+2018-01-02 13:25:24,372 Loading plugins
+2018-01-02 13:25:24,372 Importing plugins.directAPIcall.APICall
+2018-01-02 13:25:24,374 Plugin registered: <plugins.directAPIcall.APICall object at 0x01F41970>
+2018-01-02 13:25:24,375 Registering jobs for APICall
+2018-01-02 13:25:24,377 No jobs registered for APICall
+2018-01-02 13:25:24,882 got process_hello
+2018-01-02 13:25:28,243 got process_pong
+2018-01-02 13:27:49,329 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:27:49,335 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:27:50,775 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9197
+2018-01-02 13:27:51,337 Loading plugins
+2018-01-02 13:27:51,339 Importing plugins.directAPIcall.APICall
+2018-01-02 13:27:51,346 Plugin registered: <plugins.directAPIcall.APICall object at 0x01081970>
+2018-01-02 13:27:51,346 Registering jobs for APICall
+2018-01-02 13:27:51,347 No jobs registered for APICall
+2018-01-02 13:27:51,851 got process_hello
+2018-01-02 13:27:56,117 got process_pong
+2018-01-02 13:29:17,070 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:29:17,076 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:29:18,487 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9200
+2018-01-02 13:29:18,755 Loading plugins
+2018-01-02 13:29:18,757 Importing plugins.directAPIcall.APICall
+2018-01-02 13:29:18,761 Plugin registered: <plugins.directAPIcall.APICall object at 0x01BB1970>
+2018-01-02 13:29:18,762 Registering jobs for APICall
+2018-01-02 13:29:18,762 No jobs registered for APICall
+2018-01-02 13:29:19,265 got process_hello
+2018-01-02 13:29:22,484 got process_pong
+2018-01-02 13:29:39,304 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:29:39,311 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:29:40,661 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9197
+2018-01-02 13:29:41,091 Loading plugins
+2018-01-02 13:29:41,095 Importing plugins.directAPIcall.APICall
+2018-01-02 13:29:41,099 Plugin registered: <plugins.directAPIcall.APICall object at 0x03401970>
+2018-01-02 13:29:41,099 Registering jobs for APICall
+2018-01-02 13:29:41,100 No jobs registered for APICall
+2018-01-02 13:29:41,603 got process_hello
+2018-01-02 13:29:44,796 got process_pong
+2018-01-02 13:30:16,657 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:30:16,663 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:30:17,791 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9200
+2018-01-02 13:30:17,939 Loading plugins
+2018-01-02 13:30:17,941 Importing plugins.directAPIcall.APICall
+2018-01-02 13:30:17,946 Plugin registered: <plugins.directAPIcall.APICall object at 0x01821970>
+2018-01-02 13:30:17,947 Registering jobs for APICall
+2018-01-02 13:30:17,947 No jobs registered for APICall
+2018-01-02 13:30:18,450 got process_hello
+2018-01-02 13:30:21,518 got process_pong
+2018-01-02 13:30:34,297 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:30:34,303 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:30:35,448 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9202
+2018-01-02 13:30:35,643 Loading plugins
+2018-01-02 13:30:35,645 Importing plugins.directAPIcall.APICall
+2018-01-02 13:30:35,649 Plugin registered: <plugins.directAPIcall.APICall object at 0x01321970>
+2018-01-02 13:30:35,650 Registering jobs for APICall
+2018-01-02 13:30:35,651 No jobs registered for APICall
+2018-01-02 13:30:36,153 got process_hello
+2018-01-02 13:30:40,367 got process_pong
+2018-01-02 13:55:15,173 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:55:15,186 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:55:16,333 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9205
+2018-01-02 13:55:16,593 Loading plugins
+2018-01-02 13:55:16,595 Importing plugins.directAPIcall.APICall
+2018-01-02 13:55:16,600 Plugin registered: <plugins.directAPIcall.APICall object at 0x017D1970>
+2018-01-02 13:55:16,601 Registering jobs for APICall
+2018-01-02 13:55:16,602 No jobs registered for APICall
+2018-01-02 13:55:17,105 got process_hello
+2018-01-02 13:55:55,450 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:55:55,456 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:55:56,023 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9203
+2018-01-02 13:55:56,447 Loading plugins
+2018-01-02 13:55:56,448 Importing plugins.directAPIcall.APICall
+2018-01-02 13:55:56,454 Plugin registered: <plugins.directAPIcall.APICall object at 0x036F4A90>
+2018-01-02 13:55:56,455 Registering jobs for APICall
+2018-01-02 13:55:56,456 No jobs registered for APICall
+2018-01-02 13:55:56,959 got process_hello
+2018-01-02 13:57:01,763 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 13:57:01,768 Starting new HTTPS connection (1): slack.com
+2018-01-02 13:57:03,154 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9203
+2018-01-02 13:57:03,590 Loading plugins
+2018-01-02 13:57:03,592 Importing plugins.directAPIcall.APICall
+2018-01-02 13:57:03,598 Plugin registered: <plugins.directAPIcall.APICall object at 0x036E4A90>
+2018-01-02 13:57:03,598 Registering jobs for APICall
+2018-01-02 13:57:03,599 No jobs registered for APICall
+2018-01-02 13:57:04,102 got process_hello
+2018-01-02 14:01:46,920 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 14:01:46,927 Starting new HTTPS connection (1): slack.com
+2018-01-02 14:01:48,305 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9202
+2018-01-02 14:01:48,767 Loading plugins
+2018-01-02 14:01:48,769 Importing plugins.directAPIcall.APICall
+2018-01-02 14:01:48,778 Plugin registered: <plugins.directAPIcall.APICall object at 0x03924A90>
+2018-01-02 14:01:48,779 Registering jobs for APICall
+2018-01-02 14:01:48,780 No jobs registered for APICall
+2018-01-02 14:01:49,283 got process_hello
+2018-01-02 14:02:07,867 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 14:02:07,871 Starting new HTTPS connection (1): slack.com
+2018-01-02 14:02:08,538 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9203
+2018-01-02 14:02:08,801 Loading plugins
+2018-01-02 14:02:08,803 Importing plugins.directAPIcall.APICall
+2018-01-02 14:02:08,810 Plugin registered: <plugins.directAPIcall.APICall object at 0x03634A90>
+2018-01-02 14:02:08,811 Registering jobs for APICall
+2018-01-02 14:02:08,813 No jobs registered for APICall
+2018-01-02 14:02:09,315 got process_hello
+2018-01-02 14:22:15,761 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 14:22:15,804 Starting new HTTPS connection (1): slack.com
+2018-01-02 14:22:17,362 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9198
+2018-01-02 14:22:17,608 Loading plugins
+2018-01-02 14:22:17,610 Importing plugins.directAPIcall.APICall
+2018-01-02 14:22:17,624 Plugin registered: <plugins.directAPIcall.APICall object at 0x018F46F0>
+2018-01-02 14:22:17,626 Registering jobs for APICall
+2018-01-02 14:22:17,627 No jobs registered for APICall
+2018-01-02 14:22:18,130 got process_hello
+2018-01-02 14:22:22,898 got process_pong
+2018-01-02 14:22:52,084 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 14:22:52,087 Starting new HTTPS connection (1): slack.com
+2018-01-02 14:22:53,204 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9200
+2018-01-02 14:22:53,619 Loading plugins
+2018-01-02 14:22:53,621 Importing plugins.directAPIcall.APICall
+2018-01-02 14:22:53,625 Plugin registered: <plugins.directAPIcall.APICall object at 0x00581970>
+2018-01-02 14:22:53,626 Registering jobs for APICall
+2018-01-02 14:22:53,626 No jobs registered for APICall
+2018-01-02 14:22:54,130 got process_hello
+2018-01-02 14:22:56,985 got process_pong
+2018-01-02 14:24:03,965 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 14:24:03,973 Starting new HTTPS connection (1): slack.com
+2018-01-02 14:24:05,109 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9201
+2018-01-02 14:24:05,387 Loading plugins
+2018-01-02 14:24:05,388 Importing plugins.directAPIcall.APICall
+2018-01-02 14:24:05,393 Plugin registered: <plugins.directAPIcall.APICall object at 0x03403070>
+2018-01-02 14:24:05,407 Registering jobs for APICall
+2018-01-02 14:24:05,410 No jobs registered for APICall
+2018-01-02 14:24:05,915 got process_hello
+2018-01-02 14:24:08,512 got process_pong
+2018-01-02 14:24:31,694 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 14:24:31,699 Starting new HTTPS connection (1): slack.com
+2018-01-02 14:24:33,001 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9194
+2018-01-02 14:24:33,437 Loading plugins
+2018-01-02 14:24:33,439 Importing plugins.directAPIcall.APICall
+2018-01-02 14:24:33,445 Plugin registered: <plugins.directAPIcall.APICall object at 0x03A23090>
+2018-01-02 14:24:33,445 Registering jobs for APICall
+2018-01-02 14:24:33,446 No jobs registered for APICall
+2018-01-02 14:24:33,950 got process_hello
+2018-01-02 14:24:36,303 got process_pong
+2018-01-02 14:48:11,380 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 14:48:11,384 Starting new HTTPS connection (1): slack.com
+2018-01-02 14:48:12,574 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9198
+2018-01-02 14:48:12,872 Loading plugins
+2018-01-02 14:48:12,906 Importing plugins.directAPIcall.APICall
+2018-01-02 14:48:12,909 Plugin registered: <plugins.directAPIcall.APICall object at 0x03C24710>
+2018-01-02 14:48:12,910 Registering jobs for APICall
+2018-01-02 14:48:12,911 No jobs registered for APICall
+2018-01-02 14:48:13,413 got process_hello
+2018-01-02 14:48:16,544 got process_pong
+2018-01-02 14:52:04,503 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 14:52:04,510 Starting new HTTPS connection (1): slack.com
+2018-01-02 14:52:05,897 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9205
+2018-01-02 14:52:06,059 Loading plugins
+2018-01-02 14:52:06,061 Importing plugins.directAPIcall.APICall
+2018-01-02 14:52:06,068 Plugin registered: <plugins.directAPIcall.APICall object at 0x018E4670>
+2018-01-02 14:52:06,068 Registering jobs for APICall
+2018-01-02 14:52:06,069 No jobs registered for APICall
+2018-01-02 14:52:06,572 got process_hello
+2018-01-02 14:52:09,350 got process_pong
+2018-01-02 14:52:23,248 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 14:52:23,254 Starting new HTTPS connection (1): slack.com
+2018-01-02 14:52:24,379 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9203
+2018-01-02 14:52:24,660 Loading plugins
+2018-01-02 14:52:24,663 Importing plugins.directAPIcall.APICall
+2018-01-02 14:52:24,668 Plugin registered: <plugins.directAPIcall.APICall object at 0x01904E70>
+2018-01-02 14:52:24,669 Registering jobs for APICall
+2018-01-02 14:52:24,669 No jobs registered for APICall
+2018-01-02 14:52:25,171 got process_hello
+2018-01-02 14:52:27,942 got process_pong
+2018-01-02 14:52:45,777 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 14:52:45,783 Starting new HTTPS connection (1): slack.com
+2018-01-02 14:52:47,114 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9199
+2018-01-02 14:52:47,296 Loading plugins
+2018-01-02 14:52:47,297 Importing plugins.directAPIcall.APICall
+2018-01-02 14:52:47,302 Plugin registered: <plugins.directAPIcall.APICall object at 0x01FA4E50>
+2018-01-02 14:52:47,302 Registering jobs for APICall
+2018-01-02 14:52:47,303 No jobs registered for APICall
+2018-01-02 14:52:47,805 got process_hello
+2018-01-02 14:52:52,054 got process_pong
+2018-01-02 14:53:11,574 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 14:53:11,579 Starting new HTTPS connection (1): slack.com
+2018-01-02 14:53:12,951 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9205
+2018-01-02 14:53:13,386 Loading plugins
+2018-01-02 14:53:13,388 Importing plugins.directAPIcall.APICall
+2018-01-02 14:53:13,392 Plugin registered: <plugins.directAPIcall.APICall object at 0x00511970>
+2018-01-02 14:53:13,393 Registering jobs for APICall
+2018-01-02 14:53:13,394 No jobs registered for APICall
+2018-01-02 14:53:13,897 got process_hello
+2018-01-02 14:53:16,620 got process_pong
+2018-01-02 14:57:02,728 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 14:57:02,736 Starting new HTTPS connection (1): slack.com
+2018-01-02 14:57:04,074 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9201
+2018-01-02 14:57:04,604 Loading plugins
+2018-01-02 14:57:04,606 Importing plugins.directAPIcall.APICall
+2018-01-02 14:57:04,611 Plugin registered: <plugins.directAPIcall.APICall object at 0x00D84E10>
+2018-01-02 14:57:04,612 Registering jobs for APICall
+2018-01-02 14:57:04,622 No jobs registered for APICall
+2018-01-02 14:57:05,126 got process_hello
+2018-01-02 14:57:07,773 got process_pong
+2018-01-02 15:03:46,754 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 15:03:46,758 Starting new HTTPS connection (1): slack.com
+2018-01-02 15:03:47,520 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9202
+2018-01-02 15:03:47,771 Loading plugins
+2018-01-02 15:03:47,773 Importing plugins.directAPIcall.APICall
+2018-01-02 15:03:47,780 Plugin registered: <plugins.directAPIcall.APICall object at 0x018E4E50>
+2018-01-02 15:03:47,782 Registering jobs for APICall
+2018-01-02 15:03:47,782 No jobs registered for APICall
+2018-01-02 15:03:48,285 got process_hello
+2018-01-02 15:03:51,313 got process_pong
+2018-01-02 15:09:14,629 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 15:09:14,636 Starting new HTTPS connection (1): slack.com
+2018-01-02 15:09:15,985 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9207
+2018-01-02 15:09:16,298 Loading plugins
+2018-01-02 15:09:16,300 Importing plugins.directAPIcall.APICall
+2018-01-02 15:09:16,307 Plugin registered: <plugins.directAPIcall.APICall object at 0x01E74670>
+2018-01-02 15:09:16,309 Registering jobs for APICall
+2018-01-02 15:09:16,310 No jobs registered for APICall
+2018-01-02 15:09:16,814 got process_hello
+2018-01-02 15:09:19,899 got process_pong
+2018-01-02 15:15:02,815 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 15:15:02,821 Starting new HTTPS connection (1): slack.com
+2018-01-02 15:15:04,170 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9206
+2018-01-02 15:15:04,482 Loading plugins
+2018-01-02 15:15:04,484 Importing plugins.directAPIcall.APICall
+2018-01-02 15:17:10,407 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 15:17:10,412 Starting new HTTPS connection (1): slack.com
+2018-01-02 15:17:11,785 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9204
+2018-01-02 15:17:11,943 Loading plugins
+2018-01-02 15:17:11,960 Importing plugins.directAPIcall.APICall
+2018-01-02 15:17:11,964 Plugin registered: <plugins.directAPIcall.APICall object at 0x018E4D30>
+2018-01-02 15:17:11,965 Registering jobs for APICall
+2018-01-02 15:17:11,965 No jobs registered for APICall
+2018-01-02 15:17:12,469 got process_hello
+2018-01-02 15:17:50,446 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 15:17:50,450 Starting new HTTPS connection (1): slack.com
+2018-01-02 15:17:51,772 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9204
+2018-01-02 15:17:52,033 Loading plugins
+2018-01-02 15:17:52,035 Importing plugins.directAPIcall.APICall
+2018-01-02 15:17:52,043 Plugin registered: <plugins.directAPIcall.APICall object at 0x018E4D50>
+2018-01-02 15:17:52,043 Registering jobs for APICall
+2018-01-02 15:17:52,045 No jobs registered for APICall
+2018-01-02 15:17:52,548 got process_hello
+2018-01-02 15:18:07,889 got process_pong
+2018-01-02 15:19:00,975 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 15:19:00,980 Starting new HTTPS connection (1): slack.com
+2018-01-02 15:19:02,328 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9205
+2018-01-02 15:19:02,639 Loading plugins
+2018-01-02 15:19:02,641 Importing plugins.directAPIcall.APICall
+2018-01-02 15:19:02,649 Plugin registered: <plugins.directAPIcall.APICall object at 0x03544A90>
+2018-01-02 15:19:02,651 Registering jobs for APICall
+2018-01-02 15:19:02,652 No jobs registered for APICall
+2018-01-02 15:19:03,157 got process_hello
+2018-01-02 15:19:19,695 got process_pong
+2018-01-02 15:59:26,490 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 15:59:26,496 Starting new HTTPS connection (1): slack.com
+2018-01-02 15:59:27,729 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9200
+2018-01-02 15:59:28,176 Loading plugins
+2018-01-02 15:59:28,176 Importing plugins.directAPIcall.APICall
+2018-01-02 15:59:28,179 Plugin registered: <plugins.directAPIcall.APICall object at 0x03544A90>
+2018-01-02 15:59:28,180 Registering jobs for APICall
+2018-01-02 15:59:28,180 No jobs registered for APICall
+2018-01-02 15:59:28,683 got process_hello
+2018-01-02 15:59:34,556 got process_pong
+2018-01-02 15:59:57,231 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-02 15:59:57,237 Starting new HTTPS connection (1): slack.com
+2018-01-02 15:59:58,605 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 9199
+2018-01-02 15:59:59,249 Loading plugins
+2018-01-02 15:59:59,250 Importing plugins.directAPIcall.APICall
+2018-01-02 15:59:59,255 Plugin registered: <plugins.directAPIcall.APICall object at 0x018B4670>
+2018-01-02 15:59:59,256 Registering jobs for APICall
+2018-01-02 15:59:59,256 No jobs registered for APICall
+2018-01-02 15:59:59,761 got process_hello
+2018-01-02 16:00:03,330 got process_pong
