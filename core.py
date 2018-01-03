@@ -58,12 +58,10 @@ class RtmBot(object):
                             level=log_level,
                             format='%(asctime)s %(message)s')
         logging.info('Initialized in: {}'.format(self.directory))
-
         # initialize stateful fields
         self.last_ping = 0
         self.bot_plugins = []
         self.slack_client = SlackClient(self.token)
-        self.tests = 'testtss'
 
     def testcon(self, str):
         print(str)
@@ -99,6 +97,7 @@ class RtmBot(object):
             time.sleep(.1)
 
     def start(self):
+        self.tests = 'testy'
         if 'DAEMON' in self.config:
             if self.config.get('DAEMON'):
                 import daemon
@@ -165,6 +164,7 @@ class RtmBot(object):
 
             plugin_config = self.config.get(cls.__name__, {})
             plugin = cls(slack_client=self.slack_client, plugin_config=plugin_config)  # instatiate!
+            print(plugin)
             self.bot_plugins.append(plugin)
             self._dbg("Plugin registered: {}".format(plugin))
 
@@ -193,7 +193,7 @@ class Plugin(object):
         self.jobs = []
         self.debug = self.plugin_config.get('DEBUG', False)
         self.outputs = []
-        self.tests = []
+        
 
     def register_jobs(self):
         ''' Please override this job with a method that instantiates any jobs
@@ -313,13 +313,10 @@ class Job(object):
 
 class MongoDBConn(object):
 
-    def __init__(self):
+    def connDB(self):
         self.clientx = MongoClient('localhost:27017')
         self.clientx.karma_bot_db
         self.dbx =  self.clientx.karma_bot_db
-
-
-    def connDB(self):
         return self.dbx
 
 class UnknownChannel(Exception):
