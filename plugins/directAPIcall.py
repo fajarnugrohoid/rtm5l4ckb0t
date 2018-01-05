@@ -3,6 +3,7 @@ from rtmbot.core import Plugin
 from core import MongoDBConn
 import re
 import datetime, json, requests
+from pymongo import MongoClient
 
 class APICall(Plugin, MongoDBConn):
 
@@ -58,7 +59,7 @@ class APICall(Plugin, MongoDBConn):
 				)
 			for slack_id_target in get_info_target:
 				sum_point = int(slack_id_target["point"]) + 10
-				print(slack_id_target["point"])
+				print("slack_id_target:", slack_id_target["point"])
 
 			karma_db.coll_member.update_one(
 			{"slack_id": cls_display_name},
@@ -73,7 +74,7 @@ class APICall(Plugin, MongoDBConn):
 
 	def formatLeaderMessage(self, members):
 		message = ""
-		print("members : " + str(members))
+		print("membersFormatLeaderMessage : " + str(members))
 		global LEADERBOARD_URL
 		LEADERBOARD_URL = "https://fmi-talk.slack.com"
 		# add each member to message
@@ -90,11 +91,14 @@ class APICall(Plugin, MongoDBConn):
 
 	def parseMembers(self, members_json):
 		# get member name, score and stars
-		print("members_json:{}", members_json)
-		print(members_json.values())
+		print("members_json:", str(members_json))
+		print("\n")
+		print("members_json.values:", members_json.values())
+		print("\n")
 		members = [(m["name"], m["l_score"], m["stars"]) for m in members_json.values()]
 		# sort members by score, decending
 		members.sort(key=lambda s: (-s[1], -s[2]))
+		print("members_sort:", members)
 		return members
 
 	def postMessage(self, message):
@@ -113,18 +117,39 @@ class APICall(Plugin, MongoDBConn):
 
 	def display_leaderboard(self):
 		print("display_leaderboard")
-		json = {"296557":{"stars":0,"last_star_ts":"1969-12-31T19:00:00-0500","name":"Fajar N","l_score":0,"g_score":0,"level":{},"id":"296557"}}
-		print("json_leaderboard : " + str(json))
+		json2 = {"296557":{"stars":0,"last_star_ts":"1969-12-31T19:00:00-0500","name":"Fajar N","l_score":0,"g_score":0,"level":{},"id":"296557"},"296558":{"stars":0,"last_star_ts":"1969-12-31T19:00:00-0500","name":"Agung N","l_score":0,"g_score":0,"level":{},"id":"296558"}}
+		
 		try:
+			print("inside try")
 			karma_db=self.connDB()
-			get_limit_members = karma_db.coll_member.find().limit(5).sort("point",pymongo.ASCENDING)
+			print("conn__karma_db:", karma_db)
+			get_limit_members = karma_db.coll_member.find().limit(5).sort('point', -1)
+			print("got data")
+			print(get_limit_members)
+
+			temp_arrjson = []
+			a = 5
+			i=0
+			json = [{},{},{},{},{}]
+			final_arrjson = {}
 			for row_member in get_limit_members:
-				json += {"296557":{"stars":0,"last_star_ts":"1969-12-31T19:00:00-0500","name":row_member["name"],"l_score":row_member["score"],"g_score":row_member["score"],"level":{},"id":"296557"}}
-				print(row_member)
+				json[i]["stars"] = 0
+				json[i]["last_star_ts"] = "1969-12-31T19:00:00-0500"
+				json[i]["name"] = row_member["name"]
+				json[i]["l_score"] = row_member["point"]
+				json[i]["g_score"] = row_member["point"]
+				json[i]["level"] = {}
+				json[i]["id"] = "296557"
+				final_arrjson[i] = json[i]
+				i=i+1
+				#json += {"296557":{"stars":0,"last_star_ts":"1969-12-31T19:00:00-0500","name":row_member["name"],"l_score":row_member["score"],"g_score":row_member["score"],"level":{},"id":"296557"}}
+				#print(row_member)
+			print(final_arrjson)
 		except Exception as e:
 			raise
+
 		# get members from json
-		members = self.parseMembers(json)
+		members = self.parseMembers(final_arrjson)
 		print("members_leaderboard : {}", members)
 		# generate message to send to slack
 		message = self.formatLeaderMessage(members)
