@@ -4,6 +4,7 @@ from core import MongoDBConn
 import re
 import datetime, json, requests
 from pymongo import MongoClient
+import datetime
 
 class APICall(Plugin, MongoDBConn):
 
@@ -28,7 +29,9 @@ class APICall(Plugin, MongoDBConn):
 						"name":user["name"],
 						"real_name":user["real_name"],
 						"display_name":user["profile"]["display_name"],
-						"point":0
+						"point":0,
+						"updated_at":datetime.datetime.today(),
+						"created_at":datetime.datetime.today()
 					})
 				print('\nInserted data successfully\n')
 		except Exception as e:
@@ -44,10 +47,41 @@ class APICall(Plugin, MongoDBConn):
 		except Exception as e:
 			print(str(e))
 
-	def update(self, resp_thanks):
+	def check_point(self):
+		try:
+			today = datetime.date.today()
+			karma_db=self.connDB()
+			members_coll = karma_db.coll_member.find()
+			for member in members_coll:
+				#var_update_at=datetime.datetime.strptime(str(member["updated_at"]), "%Y-%m-%d")
+				print("updated_at:", member["updated_at"])
+				updated_at = str(member["updated_at"])
+				my_time = datetime.datetime.strptime(updated_at, "%Y-%m-%d %H:%M:%S.%f")
+				my_format = "%Y-%m-%d"
+				update_formated = my_time.strftime(my_format)
+				print("update_formated:", update_formated)
+				print("today:", today)
+				
+				if today != update_formated:
+					diff = today - update_formated
+					diffdays=diff.days
+					sum_point = int(member["point"]) + int(diffdays)*10
+					karma_db.coll_member.update_one(
+						{"slack_id": cls_display_name},
+						{
+							'$set': {
+								'point': sum_point
+							}
+						}, upsert=False)
+
+		except Exception as e:
+			raise
+
+	def update(self, resp_thanks, all_info):
 		try:
 			karma_db=self.connDB()
 			#for user in self.slack_client.api_call("users.list")["members"]:
+			print("all_info:", all_info)
 			print("resp_thanks:" + resp_thanks)
 			split_resp=resp_thanks.split("@")
 			print(split_resp)
@@ -58,7 +92,7 @@ class APICall(Plugin, MongoDBConn):
 					{"slack_id":cls_display_name}
 				)
 			for slack_id_target in get_info_target:
-				sum_point = int(slack_id_target["point"]) + 10
+				sum_point = int(slack_id_target["point"]) + 1
 				print("slack_id_target:", slack_id_target["point"])
 
 			karma_db.coll_member.update_one(
@@ -69,6 +103,12 @@ class APICall(Plugin, MongoDBConn):
 					}
 			}, 
 			upsert=False)
+			send_by = self.get_info_member_by_id(all_info['user'])
+			receive_by = self.get_info_member_by_id(cls_display_name)
+			message = str(receive_by) + ' receives 1 point from ' + str(send_by) + '. He now has ' + str(sum_point) + '  points'
+			var_channel = all_info['channel']
+			self.slack_client.api_call("chat.postMessage",channel=var_channel,text=message)
+
 		except Exception as e:
 			raise
 
@@ -76,13 +116,12 @@ class APICall(Plugin, MongoDBConn):
 		message = ""
 		print("membersFormatLeaderMessage : " + str(members))
 		global LEADERBOARD_URL
-		LEADERBOARD_URL = "https://fmi-talk.slack.com"
-		# add each member to message
-		for username, score, stars in members:
-			print("username:" + username)
-			print("score:" + str(score))
+		LEADERBOARD_URL = "https://riak-chat.slack.com"
+		for name, real_name, point, stars in members:
+			print("name:" + name)
+			print("point:" + str(point))
 			print("stars:" + str(stars))
-			message += "\n*{}* {} Points, {} Stars".format(username, score, stars)
+			message += "\n*{}* {} Points, {} Stars".format(name, real_name, point, stars)
 			print("message in loop:" + str(message))
 		
 		message += "\n\n<{}|View Online Leaderboard>".format(LEADERBOARD_URL)
@@ -90,13 +129,13 @@ class APICall(Plugin, MongoDBConn):
 		return message
 
 	def parseMembers(self, members_json):
-		# get member name, score and stars
+		# get member name, point and stars
 		print("members_json:", str(members_json))
 		print("\n")
 		print("members_json.values:", members_json.values())
 		print("\n")
-		members = [(m["name"], m["l_score"], m["stars"]) for m in members_json.values()]
-		# sort members by score, decending
+		members = [(m["name"], m["real_name"], m["point"], m["stars"]) for m in members_json.values()]
+		# sort members by point, decending
 		members.sort(key=lambda s: (-s[1], -s[2]))
 		print("members_sort:", members)
 		return members
@@ -105,10 +144,10 @@ class APICall(Plugin, MongoDBConn):
 		print("postMessage:" + str(message))
 		payload = json.dumps({
 			"icon_emoji": ":ghost:",
-			"username": "Advent Of Code Leaderboard",
+			"username": "Karma Leaderboard",
 			"text": message
 		})
-		SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
+		SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
 		requests.post(
 			SLACK_WEBHOOK,
 			data=payload,
@@ -117,7 +156,7 @@ class APICall(Plugin, MongoDBConn):
 
 	def display_leaderboard(self):
 		print("display_leaderboard")
-		json2 = {"296557":{"stars":0,"last_star_ts":"1969-12-31T19:00:00-0500","name":"Fajar N","l_score":0,"g_score":0,"level":{},"id":"296557"},"296558":{"stars":0,"last_star_ts":"1969-12-31T19:00:00-0500","name":"Agung N","l_score":0,"g_score":0,"level":{},"id":"296558"}}
+		#json2 = {"296557":{"stars":0,"last_star_ts":"1969-12-31T19:00:00-0500","name":"Fajar N","l_score":0,"g_score":0,"level":{},"id":"296557"},"296558":{"stars":0,"last_star_ts":"1969-12-31T19:00:00-0500","name":"Agung N","l_score":0,"g_score":0,"level":{},"id":"296558"}}
 		
 		try:
 			print("inside try")
@@ -134,12 +173,10 @@ class APICall(Plugin, MongoDBConn):
 			final_arrjson = {}
 			for row_member in get_limit_members:
 				json[i]["stars"] = 0
-				json[i]["last_star_ts"] = "1969-12-31T19:00:00-0500"
 				json[i]["name"] = row_member["name"]
-				json[i]["l_score"] = row_member["point"]
-				json[i]["g_score"] = row_member["point"]
-				json[i]["level"] = {}
-				json[i]["id"] = "296557"
+				json[i]["real_name"] = row_member["real_name"]
+				json[i]["point"] = row_member["point"]
+				json[i]["slack_id"] = row_member["slack_id"]
 				final_arrjson[i] = json[i]
 				i=i+1
 				#json += {"296557":{"stars":0,"last_star_ts":"1969-12-31T19:00:00-0500","name":row_member["name"],"l_score":row_member["score"],"g_score":row_member["score"],"level":{},"id":"296557"}}
@@ -157,20 +194,34 @@ class APICall(Plugin, MongoDBConn):
 		# send message to slack
 		self.postMessage(message)
 
+	def get_info_member_by_id(self, member_id):
+		member_name = ''
+		try:
+			karma_db=self.connDB()
+			members_coll = karma_db.coll_member.find({"slack_id": member_id})
+			print('\n All data from Database \n')
+			for member in members_coll:
+				member_name = member["name"]
+		except Exception as e:
+			print(str(e))
+
+		return member_name
+
 	def process_message(self, data):
 		if 'message' in data['type']:
-			if 'sync_member' in data['text']:
+			if 'resync_member' in data['text']:
 				#for user in self.slack_client.api_call("users.list")["members"]:
 				#	print(user["name"], user["id"])
 				self.insert()
+				self.check_point()
 				self.read()
 
 		if 'message' in data['type']:
 			if 'thanks' in data['text']:
-				self.update(data['text'])
+				self.update(data['text'], data)
 
 		if 'message' in data['type']:
 			print(data['text'])
-			if '<@U89QAG4N5> leaderboard' in data['text']:
+			if '<@U8NEAL2M6> leaderboard' in data['text']:
 				print("start to leaderboard")
 				self.display_leaderboard()
