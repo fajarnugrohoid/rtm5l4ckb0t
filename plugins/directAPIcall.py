@@ -22,19 +22,22 @@ class APICall(Plugin, MongoDBConn):
 		try:
 			karma_db=self.connDB()
 			for user in self.slack_client.api_call("users.list")["members"]:
+				print("user:", user)
 				if karma_db.coll_member.find({"slack_id": user["id"]}).count() <= 0:
-					if user["is_bot"]==False:
-						print('start insert data:', user)
-						karma_db.coll_member.insert_one({
-							"slack_id": user["id"],
-							"name":user["name"],
-							"real_name":user["real_name"],
-							"display_name":user["profile"]["display_name"],
-							"point":0,
-							"updated_at":datetime.datetime.today(),
-							"created_at":datetime.datetime.today()
-						})
-						print('\nInserted data successfully\n')
+					#if user["is_bot"]==False:
+					print('start insert data:', user)
+					karma_db.coll_member.insert_one({
+						"slack_id": user["id"],
+						"name":user["name"],
+						"real_name":user["real_name"],
+						"display_name":user["profile"]["display_name"],
+						"given_point":0,
+						"received_point_user":0,
+						"received_point_perday":10,
+						"updated_at":datetime.datetime.today(),
+						"created_at":datetime.datetime.today()
+					})
+					print('\nInserted data successfully\n')
 		except Exception as e:
 			print(str(e))
 
@@ -74,13 +77,13 @@ class APICall(Plugin, MongoDBConn):
 					diff = today - update_str_date
 					diffdays=diff.days
 					print("diffdays:",diffdays)
-					sum_point = int(member["point"]) + (int(diffdays)*10)
+					sum_point = int(member["received_point_perday"]) + (int(diffdays)*10)
 					print("sum_point:", sum_point)
 					karma_db.coll_member.update_one(
 						{"slack_id": member["slack_id"]},
 						{
 							'$set': {
-								'point': sum_point,
+								'received_point_perday': sum_point,
 								"updated_at":datetime.datetime.today()
 							}
 						}, upsert=False)
@@ -97,25 +100,38 @@ class APICall(Plugin, MongoDBConn):
 			split_resp=resp_thanks.split("@")
 			print(split_resp)
 			print("split_resp[1]:" + split_resp[1])
-			cls_display_name=re.sub('[^A-Za-z0-9]+', '', split_resp[1])
-			print("cls_display_name:" + cls_display_name)
-			get_info_target=karma_db.coll_member.find(
-					{"slack_id":cls_display_name}
-				)
-			for slack_id_target in get_info_target:
-				sum_point = int(slack_id_target["point"]) + 1
-				print("slack_id_target:", slack_id_target["point"])
+			slack_id_receiver=re.sub('[^A-Za-z0-9]+', '', split_resp[1])
+			print("cls_display_name:" + slack_id_receiver)
+			get_info_receiver=karma_db.coll_member.find({"slack_id":slack_id_receiver})
+			for row_receiver in get_info_receiver:
+				sum_received_point = int(row_receiver["received_point_user"]) + 1
+
+			get_info_sender=karma_db.coll_member.find({"slack_id":all_info['user']})
+			for row_sender in get_info_sender:
+				print("slack_id_sender:", row_sender)
+				minus_point = int(row_sender["given_point"]) + 1
 
 			karma_db.coll_member.update_one(
-			{"slack_id": cls_display_name},
+			{"slack_id": slack_id_receiver},
 			{
 				'$set': {
-						'point': sum_point
+						'received_point_user': sum_received_point
 					}
 			}, 
 			upsert=False)
+			karma_db.coll_member.update_one(
+			{"slack_id": all_info['user']},
+			{
+				'$set': {
+						'given_point': minus_point
+					}
+			}, 
+			upsert=False)
+
+			sum_point=self.get_sum_point(slack_id_receiver)
+
 			send_by = self.get_info_member_by_id(all_info['user'])
-			receive_by = self.get_info_member_by_id(cls_display_name)
+			receive_by = self.get_info_member_by_id(slack_id_receiver)
 			message = str(receive_by) + ' receives 1 point from ' + str(send_by) + '. '+ str(receive_by) +' now has ' + str(sum_point) + '  points'
 			var_channel = all_info['channel']
 			self.slack_client.api_call("chat.postMessage",channel=var_channel,text=message)
@@ -132,7 +148,7 @@ class APICall(Plugin, MongoDBConn):
 			print("name:" + name)
 			print("point:" + str(point))
 			print("stars:" + str(stars))
-			message += "\n*{}* , {} Points {} , {} Stars".format(name, real_name, point, stars)
+			message += "\n*{}* , {}, Points {} , {} Stars".format(name, real_name, point, stars)
 			print("message in loop:" + str(message))
 		
 		message += "\n\n<{}|View Online Leaderboard>".format(LEADERBOARD_URL)
@@ -158,7 +174,7 @@ class APICall(Plugin, MongoDBConn):
 			"username": "Karma Leaderboard",
 			"text": message
 		})
-		SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
+		SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
 		requests.post(
 			SLACK_WEBHOOK,
 			data=payload,
@@ -173,7 +189,7 @@ class APICall(Plugin, MongoDBConn):
 			print("inside try")
 			karma_db=self.connDB()
 			print("conn__karma_db:", karma_db)
-			get_limit_members = karma_db.coll_member.find().limit(5).sort('point', -1)
+			get_limit_members = karma_db.coll_member.find().limit(10).sort('point', -1)
 			print("got data")
 			print(get_limit_members)
 
@@ -184,9 +200,10 @@ class APICall(Plugin, MongoDBConn):
 			final_arrjson = {}
 			for row_member in get_limit_members:
 				json[i]["stars"] = 0
+				sum_point = (int(row_member["received_point_perday"]) + int(row_member["received_point_user"])) - int(row_member["given_point"])
 				json[i]["name"] = row_member["name"]
 				json[i]["real_name"] = row_member["real_name"]
-				json[i]["point"] = row_member["point"]
+				json[i]["point"] = sum_point
 				json[i]["slack_id"] = row_member["slack_id"]
 				final_arrjson[i] = json[i]
 				i=i+1
@@ -218,8 +235,53 @@ class APICall(Plugin, MongoDBConn):
 
 		return member_name
 
+	def get_sum_point(self, member_id):
+		sum_point = 0
+		try:
+			karma_db=self.connDB()
+			get_member=karma_db.coll_member.find({"slack_id":member_id})
+			for row in get_member:
+				sum_point = (int(row["received_point_perday"]) + int(row["received_point_user"])) - int(row["given_point"])
+		except Exception as e:
+			print(str(e))
+
+		return sum_point
+
+	def handle_direct_message_to_bot(self, allinfo):
+		#im_list = self.slack_client.api_call("im.list")[""]
+		#print("im.list:", im_list)
+		#Sending “karma” through DM to @karmabot should return the number of karma points you
+		#have received and the number of karma points you have left to give
+		for imlist in self.slack_client.api_call("im.list")["ims"]:
+			print("channel message from : ", allinfo["channel"])
+			print("ims list:", imlist)
+			print("ims id : ", imlist["id"])
+			if imlist["id"]==allinfo["channel"]:
+				given_point=0
+				received_point_user=0
+				received_point_perday=0
+				sum_point_perday_n_users = 0
+				sum_point = 0
+				try:
+					karma_db=self.connDB()
+					members_coll = karma_db.coll_member.find({"slack_id": imlist["user"]})
+					for member in members_coll:
+						given_point = member["given_point"]
+						received_point_user = member["received_point_user"]
+						received_point_perday = member["received_point_perday"]
+						sum_point_perday_n_users = received_point_perday + received_point_user
+						sum_point = (received_point_perday + received_point_user) - given_point
+				except Exception as e:
+					print(str(e))
+
+				msg = "Now, your points is " + str(sum_point) + ", you have left points is " + str(given_point)
+				self.slack_client.api_call("chat.postMessage",channel=imlist["id"],text=msg)
+				#self.slack_client.api_call("im.replies", channel=imlist["ims"]["id"], )
+
 	def process_message(self, data):
-		print("data:",data)
+		#print("data:",data)
+		#channels_call = self.slack_client.api_call("im.list")
+		#print("im.list:", channels_call)
 		if 'message' in data['type']:
 			if 'resync_member' in data['text']:
 				#for user in self.slack_client.api_call("users.list")["members"]:
@@ -237,3 +299,8 @@ class APICall(Plugin, MongoDBConn):
 			if '<@U8NEAL2M6> leaderboard' in data['text']:
 				print("start to leaderboard")
 				self.display_leaderboard()
+
+		if 'message' in data['type']:
+			if 'karma' in data['text']:
+				print("direct message to bot")
+				self.handle_direct_message_to_bot(data)

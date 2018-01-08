@@ -33,16 +33,4 @@ def main(args=None):
 
 
 if __name__ == "__main__":
-    updated_at = "2018-01-07 17:59:10.649000"
-    #var_update_at=datetime.datetime.strptime(updated_at, '%H:%M')
-    today = datetime.datetime.today()
-    myTime = datetime.datetime.strptime(updated_at, "%Y-%m-%d %H:%M:%S.%f")
-    myFormat = "%Y-%m-%d"
-    xxx = myTime.strftime(myFormat)
-    xxy = datetime.datetime.strptime(xxx, "%Y-%m-%d")
-    diff = today - xxy
-    diffdays=diff.days
-
-    print("New:", str(diffdays))
-
     main()
