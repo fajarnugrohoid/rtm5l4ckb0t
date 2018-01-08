@@ -174,7 +174,7 @@ class APICall(Plugin, MongoDBConn):
 			"username": "Karma Leaderboard",
 			"text": message
 		})
-		SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
+		SLACK_WEBHOOK = ""
 		requests.post(
 			SLACK_WEBHOOK,
 			data=payload,

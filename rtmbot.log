@@ -2716,3 +2716,13 @@ NameError: name 'karma_db' is not defined
 2018-01-08 13:00:03,182 got process_pong
 2018-01-08 13:00:07,107 got process_pong
 2018-01-08 13:00:11,123 got process_pong
+2018-01-08 13:13:42,242 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-08 13:14:24,528 Initialized in: C:\Python3632\Scripts\rtm5l4ckb0t
+2018-01-08 13:14:24,532 Starting new HTTPS connection (1): slack.com
+2018-01-08 13:14:25,752 https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 5260
+2018-01-08 13:14:26,077 Loading plugins
+2018-01-08 13:14:26,077 Importing plugins.directAPIcall.APICall
+2018-01-08 13:14:26,082 Plugin registered: <plugins.directAPIcall.APICall object at 0x03405130>
+2018-01-08 13:14:26,082 Registering jobs for APICall
+2018-01-08 13:14:26,082 No jobs registered for APICall
+2018-01-08 13:14:26,585 got process_hello

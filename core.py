@@ -63,9 +63,6 @@ class RtmBot(object):
         self.bot_plugins = []
         self.slack_client = SlackClient(self.token)
 
-    def testcon(self, str):
-        print(str)
-
     def _dbg(self, debug_string):
         print(debug_string)
         if self.debug:
@@ -312,9 +309,13 @@ class Job(object):
         raise NotImplementedError
 
 class MongoDBConn(object):
+    def __init__(self, config):
+        self.config = config
+        self.mongo_config = config.get('MONGO_CONFIG', None)
+        print("mongo_config:", self.mongo_config)
 
     def connDB(self):
-        self.clientx = MongoClient('localhost:27017')
+        self.clientx = MongoClient(self.mongo_config)
         self.clientx.karma_bot_db
         self.dbx =  self.clientx.karma_bot_db
         return self.dbx
