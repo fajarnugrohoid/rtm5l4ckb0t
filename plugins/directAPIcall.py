@@ -3,8 +3,13 @@ from rtmbot.core import Plugin
 from core import MongoDBConn
 import re
 import datetime, json, requests
-from pymongo import MongoClient
 import datetime
+from argparse import ArgumentParser
+import sys
+import os
+import yaml
+
+sys.path.append(os.getcwd())
 
 class APICall(Plugin, MongoDBConn):
 
@@ -174,7 +179,7 @@ class APICall(Plugin, MongoDBConn):
 			"username": "Karma Leaderboard",
 			"text": message
 		})
-		SLACK_WEBHOOK = ""
+		SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
 		requests.post(
 			SLACK_WEBHOOK,
 			data=payload,
@@ -282,6 +287,18 @@ class APICall(Plugin, MongoDBConn):
 		#print("data:",data)
 		#channels_call = self.slack_client.api_call("im.list")
 		#print("im.list:", channels_call)
+		parser = ArgumentParser()
+		parser.add_argument(
+			'-c',
+			'--config',
+			help='Full path to config file.',
+			metavar='path'
+		)
+		
+		args = parser.parse_args()
+		config = yaml.load(open(args.config or 'rtmbot.conf', 'r'))
+		print("config:", config)
+
 		if 'message' in data['type']:
 			if 'resync_member' in data['text']:
 				#for user in self.slack_client.api_call("users.list")["members"]:
