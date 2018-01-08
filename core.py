@@ -10,6 +10,10 @@ from slackclient import SlackClient
 from rtmbot.utils.module_loading import import_string
 
 from pymongo import MongoClient
+from argparse import ArgumentParser
+import yaml
+
+sys.path.append(os.getcwd())
 
 sys.dont_write_bytecode = True
 
@@ -309,16 +313,45 @@ class Job(object):
         raise NotImplementedError
 
 class MongoDBConn(object):
-    def __init__(self, config):
-        self.config = config
-        self.mongo_config = config.get('MONGO_CONFIG', None)
-        print("mongo_config:", self.mongo_config)
-
     def connDB(self):
-        self.clientx = MongoClient(self.mongo_config)
+        parser = ArgumentParser()
+        parser.add_argument(
+            '-c',
+            '--config',
+            help='Full path to config file.',
+            metavar='path'
+        )
+        args = parser.parse_args()
+        config = yaml.load(open(args.config or 'rtmbot.conf', 'r'))
+        self.clientx = MongoClient(config["MONGODB_CONFIG"])
         self.clientx.karma_bot_db
         self.dbx =  self.clientx.karma_bot_db
         return self.dbx
+
+class SlackConfig(object):
+    def getConfigFile(self):
+        parser = ArgumentParser()
+        parser.add_argument(
+            '-c',
+            '--config',
+            help='Full path to config file.',
+            metavar='path'
+        )
+        args = parser.parse_args()
+        config = yaml.load(open(args.config or 'rtmbot.conf', 'r'))
+        return config
+
+    def webhookConfig(self):
+        self.config=self.getConfigFile()
+        print("slack_webhook:", self.config["SLACK_WEBHOOK"])
+        self.slack_webhook = self.config["SLACK_WEBHOOK"]
+        return self.slack_webhook
+
+    def leaderboardUrl(self):
+        self.config=self.getConfigFile()
+        print("leader_board:", self.config["LEADERBOARD_URL"])
+        self.leaderboard_url = self.config["LEADERBOARD_URL"]
+        return self.leaderboard_url
 
 class UnknownChannel(Exception):
     pass

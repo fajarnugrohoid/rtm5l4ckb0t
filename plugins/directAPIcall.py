@@ -1,17 +1,12 @@
 from __future__ import unicode_literals
 from rtmbot.core import Plugin
 from core import MongoDBConn
+from core import SlackConfig
 import re
 import datetime, json, requests
 import datetime
-from argparse import ArgumentParser
-import sys
-import os
-import yaml
 
-sys.path.append(os.getcwd())
-
-class APICall(Plugin, MongoDBConn):
+class APICall(Plugin, MongoDBConn, SlackConfig):
 
 	def catch_all(self, data):
 		print("data_catch_all:")
@@ -38,7 +33,7 @@ class APICall(Plugin, MongoDBConn):
 						"display_name":user["profile"]["display_name"],
 						"given_point":0,
 						"received_point_user":0,
-						"received_point_perday":10,
+						"received_point_perday":5,
 						"updated_at":datetime.datetime.today(),
 						"created_at":datetime.datetime.today()
 					})
@@ -82,7 +77,7 @@ class APICall(Plugin, MongoDBConn):
 					diff = today - update_str_date
 					diffdays=diff.days
 					print("diffdays:",diffdays)
-					sum_point = int(member["received_point_perday"]) + (int(diffdays)*10)
+					sum_point = int(member["received_point_perday"]) + (int(diffdays)*5)
 					print("sum_point:", sum_point)
 					karma_db.coll_member.update_one(
 						{"slack_id": member["slack_id"]},
@@ -147,8 +142,7 @@ class APICall(Plugin, MongoDBConn):
 	def formatLeaderMessage(self, members):
 		message = ""
 		print("membersFormatLeaderMessage : " + str(members))
-		global LEADERBOARD_URL
-		LEADERBOARD_URL = "https://riak-chat.slack.com"
+		LEADERBOARD_URL = self.leaderboardUrl()
 		for name, real_name, point, stars in members:
 			print("name:" + name)
 			print("point:" + str(point))
@@ -179,7 +173,7 @@ class APICall(Plugin, MongoDBConn):
 			"username": "Karma Leaderboard",
 			"text": message
 		})
-		SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
+		SLACK_WEBHOOK = self.webhookConfig()
 		requests.post(
 			SLACK_WEBHOOK,
 			data=payload,
@@ -287,17 +281,6 @@ class APICall(Plugin, MongoDBConn):
 		#print("data:",data)
 		#channels_call = self.slack_client.api_call("im.list")
 		#print("im.list:", channels_call)
-		parser = ArgumentParser()
-		parser.add_argument(
-			'-c',
-			'--config',
-			help='Full path to config file.',
-			metavar='path'
-		)
-		
-		args = parser.parse_args()
-		config = yaml.load(open(args.config or 'rtmbot.conf', 'r'))
-		print("config:", config)
 
 		if 'message' in data['type']:
 			if 'resync_member' in data['text']:

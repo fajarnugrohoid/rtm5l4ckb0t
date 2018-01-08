@@ -27,7 +27,6 @@ def main(args=None):
         args = parse_args()
     config = yaml.load(open(args.config or 'rtmbot.conf', 'r'))
     bot = RtmBot(config)
-    mongodbconn = MongoDBConn(config)
     try:
         bot.start()
     except KeyboardInterrupt:
