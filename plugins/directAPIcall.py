@@ -193,9 +193,8 @@ class APICall(Plugin, MongoDBConn, SlackConfig):
 			print(get_limit_members)
 
 			temp_arrjson = []
-			a = 5
 			i=0
-			json = [{},{},{},{},{}]
+			json = [{},{},{},{},{},{},{}]
 			final_arrjson = {}
 			for row_member in get_limit_members:
 				json[i]["stars"] = 0
