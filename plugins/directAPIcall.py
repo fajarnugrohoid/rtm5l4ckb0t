@@ -23,17 +23,18 @@ class APICall(Plugin, MongoDBConn):
 			karma_db=self.connDB()
 			for user in self.slack_client.api_call("users.list")["members"]:
 				if karma_db.coll_member.find({"slack_id": user["id"]}).count() <= 0:
-					print('start insert data')
-					karma_db.coll_member.insert_one({
-						"slack_id": user["id"],
-						"name":user["name"],
-						"real_name":user["real_name"],
-						"display_name":user["profile"]["display_name"],
-						"point":0,
-						"updated_at":datetime.datetime.today(),
-						"created_at":datetime.datetime.today()
-					})
-				print('\nInserted data successfully\n')
+					if user["is_bot"]==False:
+						print('start insert data:', user)
+						karma_db.coll_member.insert_one({
+							"slack_id": user["id"],
+							"name":user["name"],
+							"real_name":user["real_name"],
+							"display_name":user["profile"]["display_name"],
+							"point":0,
+							"updated_at":datetime.datetime.today(),
+							"created_at":datetime.datetime.today()
+						})
+						print('\nInserted data successfully\n')
 		except Exception as e:
 			print(str(e))
 
@@ -49,28 +50,38 @@ class APICall(Plugin, MongoDBConn):
 
 	def check_point(self):
 		try:
-			today = datetime.date.today()
+			today = datetime.datetime.today()
 			karma_db=self.connDB()
 			members_coll = karma_db.coll_member.find()
 			for member in members_coll:
 				#var_update_at=datetime.datetime.strptime(str(member["updated_at"]), "%Y-%m-%d")
-				print("updated_at:", member["updated_at"])
+				
 				updated_at = str(member["updated_at"])
+				print("\n")
 				my_time = datetime.datetime.strptime(updated_at, "%Y-%m-%d %H:%M:%S.%f")
 				my_format = "%Y-%m-%d"
-				update_formated = my_time.strftime(my_format)
-				print("update_formated:", update_formated)
-				print("today:", today)
-				
-				if today != update_formated:
-					diff = today - update_formated
+
+				update_str_formated = my_time.strftime(my_format)
+				today_str_formated = today.strftime(my_format)
+
+				update_str_date = datetime.datetime.strptime(update_str_formated, my_format)
+				today_str_date = datetime.datetime.strptime(today_str_formated, my_format)
+
+				print("update_str_date:", update_str_date)
+				print("today:", today_str_date)
+				if today_str_date != update_str_date:
+					print("inside today_str_date != update_str_date")
+					diff = today - update_str_date
 					diffdays=diff.days
-					sum_point = int(member["point"]) + int(diffdays)*10
+					print("diffdays:",diffdays)
+					sum_point = int(member["point"]) + (int(diffdays)*10)
+					print("sum_point:", sum_point)
 					karma_db.coll_member.update_one(
-						{"slack_id": cls_display_name},
+						{"slack_id": member["slack_id"]},
 						{
 							'$set': {
-								'point': sum_point
+								'point': sum_point,
+								"updated_at":datetime.datetime.today()
 							}
 						}, upsert=False)
 
@@ -105,7 +116,7 @@ class APICall(Plugin, MongoDBConn):
 			upsert=False)
 			send_by = self.get_info_member_by_id(all_info['user'])
 			receive_by = self.get_info_member_by_id(cls_display_name)
-			message = str(receive_by) + ' receives 1 point from ' + str(send_by) + '. He now has ' + str(sum_point) + '  points'
+			message = str(receive_by) + ' receives 1 point from ' + str(send_by) + '. '+ str(receive_by) +' now has ' + str(sum_point) + '  points'
 			var_channel = all_info['channel']
 			self.slack_client.api_call("chat.postMessage",channel=var_channel,text=message)
 
@@ -121,7 +132,7 @@ class APICall(Plugin, MongoDBConn):
 			print("name:" + name)
 			print("point:" + str(point))
 			print("stars:" + str(stars))
-			message += "\n*{}* {} Points, {} Stars".format(name, real_name, point, stars)
+			message += "\n*{}* , {} Points {} , {} Stars".format(name, real_name, point, stars)
 			print("message in loop:" + str(message))
 		
 		message += "\n\n<{}|View Online Leaderboard>".format(LEADERBOARD_URL)
@@ -136,7 +147,7 @@ class APICall(Plugin, MongoDBConn):
 		print("\n")
 		members = [(m["name"], m["real_name"], m["point"], m["stars"]) for m in members_json.values()]
 		# sort members by point, decending
-		members.sort(key=lambda s: (-s[1], -s[2]))
+		members.sort(key=lambda s: (-s[2], -s[3]))
 		print("members_sort:", members)
 		return members
 
@@ -201,13 +212,14 @@ class APICall(Plugin, MongoDBConn):
 			members_coll = karma_db.coll_member.find({"slack_id": member_id})
 			print('\n All data from Database \n')
 			for member in members_coll:
-				member_name = member["name"]
+				member_name = member["real_name"]
 		except Exception as e:
 			print(str(e))
 
 		return member_name
 
 	def process_message(self, data):
+		print("data:",data)
 		if 'message' in data['type']:
 			if 'resync_member' in data['text']:
 				#for user in self.slack_client.api_call("users.list")["members"]:
